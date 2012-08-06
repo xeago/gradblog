@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="chrome=1">
+        <title>Twan Wolthof</title>
+        <link rel="stylesheet" href="/stylesheets/styles.css">
+        <link rel="stylesheet" href="/stylesheets/pygment_trac.css">
+        <meta name="viewport" content="width=device-width">
+        <!--[if lt IE 9]
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div id="ribbon">
+          <a href="https://github.com/xeago" rel="me">Fork me on GitHub</a>
+        </div>
+        <div class="wrapper">
+            <header>
+                <a href="/"><h1>Twan Wolthof</h1></a>
+                <img id="profile" src="http://www.gravatar.com/avatar/c742035c1af357dff58dcab21b95b813.png"></img>
+                <div id="stayleft">
+                    <p>A blog to keep in touch!</p>
+                    <div id="social" class="view">
+                        <span>
+                            <a href="https://twitter.com/TwanWolthof" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @TwanWolthof</a>
+                            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                        </span>
+                        <span>
+                            <a href="https://facebook.com/Xeago">
+                                <img src="/assets/facebook.png" alt="Facebook"></img>
+                            </a>
+                        </span>
+                        <span>
+                            <a href="/atom.xml">
+                                <img src="https://a248.e.akamai.net/assets.github.com/images/modules/posts/rss.png?1338956357" alt="Atom"></img>
+                            </a>
+                        </span>
+                    </div>
+                    {% comment %}
+                    <p class="view"><a href="http://github.com/orderedlist/minimal">View the Project on GitHub <small>orderedlist/minimal</small></a></p>
+                    {% endcomment %}
+                </div>
+                <div id="archive">
+                    <small class="left"><a href="/archive.html">View archive</a></small>
+                    <small class="right ">Last 5 posts:</small>
+                    <ul class="removefloat">
+                        {% for post in site.posts limit: 5 offset:1 %}
+                        <li class="removefloat">
+                            <a class="left removefloat" href="{{ post.url }}">{{ post.title }}</a>
+                            <small class="right">{{ post.date | date:"%Y-%m-%d" }}</small>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </header>
+            <section>
+                {{ content }}
+            </section>
+            <footer>
+              <p><small>Hosted on GitHub Pages &mdash; <a href="http://orderedlist.github.com/minimal/">Minimal</a> theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+            </footer>
+        </div>
+        <script>
+        /* Make external links target _blank */
+        var links = document.links;
+
+        for (var i = 0, linksLength = links.length; i < linksLength; i++) {
+           if (links[i].hostname != window.location.hostname) {
+               links[i].target = '_blank';
+           } 
+        }
+        </script>
+    </body>
+</html>

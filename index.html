@@ -1,0 +1,7 @@
+---
+layout: default
+---
+{% assign first_post = site.posts.first %}
+<small class="padtop right">{{ first_post.date | date_to_long_string }}</small>
+<h1>{{first_post.title}}</h1>
+{{ first_post.content }}

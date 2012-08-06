@@ -13,6 +13,8 @@ I've had good contact with Patrick, the CTO from [Videofyme], see their [about] 
 
 Next week, on tuesday, there'll be a kickoff where we'll the office at 3 pm and get back the next day.
 
+How about an awesome start :D!
+
 [about]: http://videofy.me/about
 [Videofyme]: http://videofy.me/
 [tullhus]: http://tullhus3.se

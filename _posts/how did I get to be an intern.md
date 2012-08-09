@@ -1,3 +1,3 @@
 - verificationdzon
-- github
 - email
+- github

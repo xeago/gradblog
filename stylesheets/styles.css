@@ -1,8 +1,8 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+@import url(/assets/VeraMono.ttf);
 
 body {
   padding:50px;
-  font:14px Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font:12px "Bitstream Vera Sans Mono", "VeraMono", Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#555;
   font-weight:300;
   background:#eee;
@@ -114,6 +114,11 @@ header ul {
   list-style:none;
   line-height:14px;
   padding:0;
+}
+
+header h1 {
+  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 3em;
 }
 
 #profile {
@@ -344,3 +349,5 @@ footer {
       width:auto;
     }
 }
+
+@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Twan Wolthof
+title: How did I get to be an intern
 ---
 
 Ever since I heard about internship, I knew I wanted to do my internship in some other country. During the study programme there are in total two internships, each having a length of 800 hours. Initially I aimed high, USA. I however started too late. Eventually I saw a flyer of QNH coming by, and went with that. They had a nice assignment but the mentoring was far to be sought. My search for an internship abroad continued.

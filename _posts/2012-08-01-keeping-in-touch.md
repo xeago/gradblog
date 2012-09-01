@@ -3,7 +3,7 @@ layout: post
 title: Keeping in touch
 ---
 
-Every time I go away from home, lengthy or not, I get the same requests and complaints over and over again. Apparently I am really bad at keeping in touch. Well, I figured, nothing is helping me&hellip;
+Every time I go away from home, for any length of time, I get the same requests and complaints over and over again. Apparently I am really bad at keeping in touch. Well, I figured, nothing is helping me&hellip;
 
 **Until now!**
 

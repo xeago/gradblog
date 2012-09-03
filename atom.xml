@@ -5,10 +5,10 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>Twan Wolthof</title>
- <link href="http://xeago.github.com" rel="self"/>
- <link href="http://xeago.github.com"/>
+ <link href="http://xeago.github.com/atom.xml" rel="self"/>
+ <link href="http://xeago.github.com/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://xeago.github.com</id>
+ <id>http://xeago.github.com/</id>
  <author>
    <name>Twan Wolthof</name>
    <email>twan@xeago.nl</email>

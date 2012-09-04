@@ -13,7 +13,7 @@ layout: simple
 <li id="PI09" value="09">A student provides a logical, clear, feasible, manageable work breakdown structure for a complex task, assignment.</li>
 <li id="PI10" value="10">A student shows in the SE field to be able of making an adequate analysis and model of a complex problem as assessed by stakeholders.</li>
 <li id="PI11" value="11">A student communicates in a pleasant and effective manner with each other and with stakeholders.</li>
-<li id="PI12" value="12">A student demonstrates in practice to be able to a discuss in a result-oriented dialogue.</li>
+<li id="PI12" value="12">A student demonstrates in practice to be able to discuss in a result-oriented dialogue.</li>
 <li id="PI13" value="13">A student demonstrates to carry out a project in a controlled manner, according to plan.</li>
 <li id="PI14" value="14">A student gives an adequate view of the progress and results of the work to create a bigger basis of understanding.</li>
 <li id="PI15" value="15">A student demonstrates in practice to be able to make a conceptual integer design.</li>

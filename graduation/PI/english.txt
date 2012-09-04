@@ -1,0 +1,22 @@
+01. A student demonstrates in practice that the (SE) instruments (method / technique) have been effectively deployed.
+02. A student demonstrates in practice on the basis of valid arguments to have taken a grounded (design) decision.
+03. A student delivers a product, result that meets the agreed requirements and quality.
+04. A student demonstrates that a product has been adequately validated.
+05. A student reports formally and adequately of the result and the progress of work.
+06. A student gives a business grounded, robust advice.
+07. A student formulates a program of requirements for the product to be delivered to the satisfaction of the stakeholders.
+08. A student develops a SMART-plan considering the requirements for a product to be delivered or work to be carried out.
+09. A student provides a logical, clear, feasible, manageable work breakdown structure for a complex task, assignment.
+10. A student shows in the SE field to be able of making an adequate analysis and model of a complex problem as assessed by stakeholders.
+11. A student communicates in a pleasant and effective manner with each other and with stakeholders.
+12. A student demonstrates in practice to be able to a discuss in a result-oriented dialogue.
+13. A student demonstrates to carry out a project in a controlled manner, according to plan.
+14. A student gives an adequate view of the progress and results of the work to create a bigger basis of understanding.
+15. A student demonstrates in practice to be able to make a conceptual integer design.
+16. A student demonstrates in practice to be able to realize an integer design.
+17. A student demonstrates in practice his professional attitude (loyalty, honest, flexible, ..).
+18. A student demonstrates in practice to have used all available information sources effectively and efficiently for the stated objective.
+19. A student demonstrates in practice to be able to deliver effective documentation.
+20. A student demonstrates in practice to implement a result in a systematic manner.
+21. A student demonstrates in practice to perform corrective, perfective, adaptive maintenance and management.
+22. A student demonstrates in practice to have learned of work, mistakes.

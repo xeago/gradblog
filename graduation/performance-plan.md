@@ -10,7 +10,7 @@ This document will be used during the assessment as source for the competencies 
 This listing is freely translated by the author. When in doubt or in event of conflict with the [original Dutch version], the latter will prevail.
 
 <ol>
-<li id="PI01" value="1">A student demonstrates in practice that the (SE) instruments (method / technique) have been effectively deployed.</li>
+<li id="PI01" value="1">A student demonstrates in practice that the (SE) instruments (method / technique) have been effectively used.</li>
 <li id="PI02" value="2">A student demonstrates in practice on the basis of valid arguments to have taken a grounded (design) decision.</li>
 <li id="PI03" value="3">A student delivers a product, result that meets the agreed requirements and quality.</li>
 <li id="PI04" value="4">A student demonstrates that a product has been adequately validated.</li>
@@ -35,23 +35,35 @@ This listing is freely translated by the author. When in doubt or in event of co
 </ol>
 
 # Chosen performance indicators
-| Left align | Right align | Center align 
-|:-----------|------------:|:------------:
-| This       |        This |     This     
-| column     |      column |    column    
-| will       |        will |     will     
-| be         |          be |      be      
-| left       |       right |    center    
-| aligned    |     aligned |   aligned    
+
+  |         |                                                                                       
+-:|:-------:|-----------|
+PI          | [1][PI01] | A student demonstrates in practice that the (SE) instruments (method / technique) have been effectively used.
+Description |           | 
+Relevance   | 80        | Understanding and the ability to use suitable methods are key to being a professional software engineer.
+Products    |           | Products
+Period      |           | Timeframe
+Areas       |           | Jekyll, tire & elasticsearch, capistrano, chef, ssh, git, MVC
 
 
-[1][PI01]
-    MUST:   Understanding and the ability to use the in
-    HOW:    jekyll, tire+es, capistrano, chef, ssh, git, MVC.
 
-[2][PI02]
-    SHOULD:
-    HOW:    tire+es deployment architecture, search design. Research
+  |         |                                                                                       
+-:|:-------:|-----------|
+PI          | [2][PI02] | A student demonstrates in practice on the basis of valid arguments to have taken a grounded (design) decision.
+Description |           | 
+Relevance   | 50        | Decisiveness and the ability to recognize (in)valid arguments are key to a professional software engineer.
+Products    |           | Products
+Period      |           | Timeframe
+Areas       |           | tire & elasticsearch deployment architecture, search design. Research
+
+  |         |                                                                                       
+-:|:-------:|-----------|
+PI          | [3][PI03] | A student delivers a product, result that meets the agreed requirements and quality.
+Description |           | 
+Relevance   | 80        | I want to be evaluated on the result of my internship. Being able to deliver results is key to a professional software engineer.
+Products    |           | Products
+Period      |           | Timeframe
+Areas       |           | tire & elasticsearch deployment architecture, search design. Research
 
 [3][PI03]
     MUST:   I want to be evaluated on the result of my internship.
@@ -64,7 +76,7 @@ This listing is freely translated by the author. When in doubt or in event of co
 
 [6][PI06]
     SHOULD: The result of the research should have significance.
-    HOW:    advice based on research es-architecture
+    HOW:    advice based on research elasticsearch-architecture
 
 [9][PI09]
     SHOULD: If the structure is to be made according to the student itself, else MAY.
@@ -73,7 +85,7 @@ This listing is freely translated by the author. When in doubt or in event of co
     SHOULD: An analysis is needed for the research.
 
 [11][PI11]
-    MUST:   Due to my internship beeing abroad keeping good contact is of high importance. Documentation should serve a clear purpose.
+    MUST:   Due to my internship being abroad keeping good contact is of high importance. Documentation should serve a clear purpose.
 
 [12][PI12]
     MUST:   Due to the possibility of the language barrier being an issue, conversations may stagger but should nonetheless still achieve their desired result.

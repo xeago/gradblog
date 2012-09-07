@@ -6,7 +6,7 @@ body {
   color:#555;
   font-weight:300;
   background:#eee;
-  text-align: center;
+  text-align: justify;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -81,10 +81,14 @@ table {
   border-collapse:collapse;
 }
 
-th, td {
-  text-align:left;
-  padding:5px 10px;
+
+td {
+  padding:2px 5px;
   border-bottom:1px solid #e5e5e5;
+}
+
+td:last-child {
+  text-align:justify;
 }
 
 dt {
@@ -94,6 +98,7 @@ dt {
 
 th {
   color:#444;
+  border-bottom:1px solid #d5d5d5;
 }
 
 img {

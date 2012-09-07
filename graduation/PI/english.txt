@@ -1,4 +1,4 @@
-01. A student demonstrates in practice that the (SE) instruments (method / technique) have been effectively deployed.
+01. A student demonstrates in practice that the (SE) instruments (method / technique) have been effectively used.
 02. A student demonstrates in practice on the basis of valid arguments to have taken a grounded (design) decision.
 03. A student delivers a product, result that meets the agreed requirements and quality.
 04. A student demonstrates that a product has been adequately validated.

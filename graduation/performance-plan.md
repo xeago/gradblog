@@ -39,40 +39,37 @@ This listing is freely translated by the author. When in doubt or in event of co
   |         |                                                                                       
 -:|:-------:|-----------|
 PI          | [1][PI01] | A student demonstrates in practice that the (SE) instruments (method / technique) have been effectively used.
-Description |           | 
-Relevance   | 80        | Understanding and the ability to use suitable methods are key to being a professional software engineer.
+Description |           | Understanding and the ability to use suitable methods and techniques are key to being a professional software engineer. 
+Relevance   | 80        | 
+Instruments |           | Jekyll, tire & elasticsearch, capistrano, chef, ssh, git, MVC and more.
 Products    |           | Products
-Period      |           | Timeframe
-Areas       |           | Jekyll, tire & elasticsearch, capistrano, chef, ssh, git, MVC
-
-
 
   |         |                                                                                       
 -:|:-------:|-----------|
 PI          | [2][PI02] | A student demonstrates in practice on the basis of valid arguments to have taken a grounded (design) decision.
-Description |           | 
-Relevance   | 50        | Decisiveness and the ability to recognize (in)valid arguments are key to a professional software engineer.
+Description |           | Decisiveness and the ability to recognize (in)valid arguments are key to a professional software engineer.
+Relevance   | 65        | During my orientating internship I was criticized for hesitating to make decisions. I wish to improve on this aspect.
+Areas       |           | Within the design of software, the system architecture and the system deployment process decisions will be documented for demonstration purposes.
 Products    |           | Products
-Period      |           | Timeframe
-Areas       |           | tire & elasticsearch deployment architecture, search design. Research
 
   |         |                                                                                       
 -:|:-------:|-----------|
 PI          | [3][PI03] | A student delivers a product, result that meets the agreed requirements and quality.
 Description |           | 
-Relevance   | 80        | I want to be evaluated on the result of my internship. Being able to deliver results is key to a professional software engineer.
+Relevance   | 100       | I want to be evaluated on the result of my internship. Being able to deliver results is key to a professional software engineer.
 Products    |           | Products
-Period      |           | Timeframe
-Areas       |           | tire & elasticsearch deployment architecture, search design. Research
 
-[3][PI03]
-    MUST:   I want to be evaluated on the result of my internship.
 
-[4][PI04]
-    SHOULD: The result of my internship has to be conform the agreed requirements and quality.
+  |         |                                                                                       
+-:|:-------:|-----------|
+PI          | [4][PI04] | A student demonstrates that a product has been adequately validated.
+Description |           | A result for the wrong problem is not the desired result. therefore an acceptance test will take place.
+Relevance   | 50        | I want to be evaluated on the result of my internship. Being able to deliver the desired result is key to a professional software engineer.
+Products    |           | System for searching videos and related .
+
 
 [5][PI05]
-    SHOULD: Due to my internship beeing abroad keeping good contact is of high importance.
+    SHOULD: Due to my internship being abroad keeping good contact is of high importance.
 
 [6][PI06]
     SHOULD: The result of the research should have significance.
@@ -102,7 +99,7 @@ Areas       |           | tire & elasticsearch deployment architecture, search d
     HOW:    Backtracking the designs made and the decisions within them later on in the internship.
 
 [17][PI17]
-    MUST:   Graduating is the last step before beeing active i
+    MUST:   Graduating is the last step before being active i
 
 [18][PI18]
     MUST:   Information sources are mandatory to 

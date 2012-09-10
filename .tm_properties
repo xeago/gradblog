@@ -1,0 +1,4 @@
+projectDirectory = "$CWD"
+windowTitle      = "$TM_DISPLAYNAME — ${CWD/^.*\///} ($TM_SCM_BRANCH)"
+fontName         = BitstreamVeraSansMono-Roman
+theme            = 95BEF169-A2E5-4041-A84A-AAFC1DD61558

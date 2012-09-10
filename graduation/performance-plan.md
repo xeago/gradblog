@@ -1,8 +1,9 @@
 ---
 layout: simple
+title: Performance plan
 ---
 
-This document defines how I intend to prove my competencies. These competencies are described in the [Education and Examination Regulations] (hereafter OER). Competencies are measured according to Performance Indicators (hereafter PI).
+This document defines how I intend to prove my competencies. These competencies are described in the [Education and Examination Regulations]. Competencies are measured according to Performance Indicators. It is as of writing unsure wether 
 
 This document will be used during the assessment as source for the competencies to be proven.
 

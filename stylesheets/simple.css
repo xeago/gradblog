@@ -11,7 +11,14 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color:#222;
-  margin:0 0 20px;
+  margin:0 0 .3em 0;
+}
+
+h1#title {
+  line-height:1.3;
+  margin:0 0 1em 0;
+  font-size:2em;
+  text-align: center;
 }
 
 p, ul, ol, table, pre, dl {
@@ -23,7 +30,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size:28px;
+  font-size:1.7em;
 }
 
 h2 {
@@ -129,6 +136,48 @@ hr {
   background:#e5e5e5;
   height:1px;
   margin:0 0 20px;
+}
+
+a[href^="http"]:after {
+  margin-left:4px;
+  content:url(/assets/external-link.png);
+}
+
+@media print {
+  
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow:none !important;
+    text-shadow: none !important;
+  }
+  
+  a, a:visited {
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  a[href^="http"]:after {
+    content: " (" attr(href) ")";
+    word-break:break-all;
+  }
+  
+  body {
+    font-size:10pt;
+  }
+  li, table, p {
+    page-break-inside: avoid;
+  }
+  
+  p, h1 {
+    page-break-after: avoid;
+  }
+  @page {
+    margin-top: .5in;
+    margin-bottom: .5in;
+    margin-left:auto;
+    margin-right:auto;
+  }
 }
 
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);

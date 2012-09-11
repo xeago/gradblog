@@ -11,7 +11,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color:#222;
-  margin:0 0 20px;
+  margin:0 0 .3em 0;
 }
 
 p, ul, ol, table, pre, dl {
@@ -23,7 +23,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size:28px;
+  font-size:1.7em;
 }
 
 h2 {

@@ -3,9 +3,10 @@ layout: simple
 title: Performance plan
 ---
 
-This document defines how I intend to prove my competencies. These competencies are described in the [Education and Examination Regulations]. Competencies are measured according to Performance Indicators. It is as of writing unsure wether 
-
+This document defines how I intend to prove my competencies. These competencies are described in the [Education and Examination Regulations]. Competencies are measured according to Performance Indicators.  
 This document will be used during the assessment as source for the competencies to be proven.
+
+---
 
 # Listing of performance indicators
 This listing is freely translated by the author. When in doubt or in event of conflict with the [original Dutch version], the latter will prevail.
@@ -111,7 +112,7 @@ Products    |           | System for searching videos and related .
 [22][PI22]
     MUST:   Learning, from any origin, is of utmost importance for any software engineer.
 
-[original Dutch version]: #REF-DUTCH-PI
+[original Dutch version]: http://infonet.hszuyd.nl/files/usr_beumersjpa/Toetsboeken%20I/Toetsboek%20I%20en%20TI%202011-2012.pdf
 [Education and Examination Regulations]: http://infonet.hszuyd.nl/files/usr_beumersjpa/Opleidingsregelingen%20I/OER%20I%20en%20TI%202012-2013.pdf
 [PI01]: #PI01
 [PI02]: #PI02

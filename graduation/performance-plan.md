@@ -69,9 +69,12 @@ Description |           | A result for the wrong problem is not the desired resu
 Relevance   | 50        | I want to be evaluated on the result of my internship. Being able to deliver the desired result is key to a professional software engineer.
 Products    |           | System for searching videos and related .
 
-
-[5][PI05]
-    SHOULD: Due to my internship being abroad keeping good contact is of high importance.
+  |         |                                                                                       
+-:|:-------:|-----------|
+PI          | [5][PI05] | A student reports formally and adequately of the result and the progress of work.
+Description |           | A fortnightly report on status will be broadcasted. These reports will contain information about my activities and their outcomes.
+Relevance   | 30        | Due to my internship being abroad keeping good contact is of high importance.
+Products    |           | 
 
 [6][PI06]
     SHOULD: The result of the research should have significance.

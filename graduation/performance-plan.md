@@ -89,8 +89,12 @@ PI          | [9][PI09] | A student provides a logical, clear, feasible, managea
 Description |           | Breaking up the assignment in small tasks allows for easier communication about the task(s) at hand.
 Relevance   | 10        | 
 
-[10][PI10]
-    SHOULD: An analysis is needed for the research.
+  |         |                                                                                       
+-:|:-------:|-----------|
+PI          | [10][PI10]| A student shows in the SE field to be able of making an adequate analysis and model of a complex problem as assessed by stakeholders.
+Description |           | Part of the end-result is an architecture for elastic search nodes. These will be described, analyzed and tested.
+Relevance   | 65        | 
+Products    |           | Sections within advice and research documents.
 
 [11][PI11]
     MUST:   Due to my internship being abroad keeping good contact is of high importance. Documentation should serve a clear purpose.

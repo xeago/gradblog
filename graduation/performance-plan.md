@@ -65,7 +65,7 @@ Products    |           | Products
   |         |                                                                                       
 -:|:-------:|-----------|
 PI          | [4][PI04] | A student demonstrates that a product has been adequately validated.
-Description |           | A result for the wrong problem is not the desired result. therefore an acceptance test will take place.
+Description |           | A result for the wrong problem is not the desired result, therefore an approved acceptance test will take place.
 Relevance   | 50        | I want to be evaluated on the result of my internship. Being able to deliver the desired result is key to a professional software engineer.
 Products    |           | System for searching videos and related documentation.
 
@@ -80,7 +80,7 @@ Products    |           | Raw e-mail messages.
 -:|:-------:|-----------|
 PI          | [6][PI06] | A student gives a business grounded, robust advice.
 Description |           | 
-Relevance   | 30/60     | 
+Relevance   | 60        | 
 Products    |           | An advice for the architecture for elasticsearch nodes, based on research.
 
 [9][PI09]

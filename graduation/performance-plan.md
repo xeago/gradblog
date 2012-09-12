@@ -76,9 +76,12 @@ Description |           | A fortnightly report on status will be broadcasted. Th
 Relevance   | 30        | Due to my internship being abroad keeping good contact is of high importance.
 Products    |           | Raw e-mail messages.
 
-[6][PI06]
-    SHOULD: The result of the research should have significance.
-    HOW:    advice based on research elasticsearch-architecture
+  |         |                                                                                       
+-:|:-------:|-----------|
+PI          | [6][PI06] | A student gives a business grounded, robust advice.
+Description |           | 
+Relevance   | 30/60     | 
+Products    |           | An advice for the architecture for elasticsearch nodes, based on research.
 
 [9][PI09]
     SHOULD: If the structure is to be made according to the student itself, else MAY.

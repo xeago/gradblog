@@ -131,8 +131,12 @@ PI          | [17][PI17]| A student demonstrates in practice his professional at
 Description |           | Soft skills are important in any project for a pleasant, successful execution. Examples of soft-skills are: cooperativeness, eagerness to learn, self criticism.
 Relevance   | 80        | 
 
-[18][PI18]
-    MUST:   Information sources are mandatory to 
+  |         |                                                                                       
+-:|:-------:|-----------|
+PI          | [18][PI18]| A student demonstrates in practice to have used all available information sources effectively and efficiently for the stated objective.
+Description |           | Reliability and verifiability of information are important for the end-result. Information sources will be carefully considered and cited in a bibliography.
+Relevance   | 80        | 
+Products    |           | Bibliography
 
 [19][PI19]
     MUST:   Documentation provided must be 

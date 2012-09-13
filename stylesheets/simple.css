@@ -138,9 +138,11 @@ hr {
   margin:0 0 20px;
 }
 
-a[href^="http"]:after {
-  margin-left:4px;
-  content:url(/assets/external-link.png);
+@media screen {
+  p a[href^="http"]:after {
+    margin-left:4px;
+    content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAALCAYAAABLcGxfAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAK5JREFUeNqMUbENwyAQDBJ9vEGmYBEGoGcAalPjjgbXDMBO2cBI2HJHAIH9lkmUa/7g/riTQDHGR8M8z+ehjwFBwy9orZc0XrgnKqWy+IQvN4LGcbxESCkR4M2YDe+SsK6rz2SaJg+NQohSoS4ewCGEWyXOeTTGoMovWk64XDDGorX2qJWMQ73vJ8BlSmmp5Zzzbe+WAAG1ZCpJeNu2r4aehvd9z3MhhPz1gR8BBgDNAlBawTOjZgAAAABJRU5ErkJggg==);
+  }
 }
 
 @media print {

@@ -83,8 +83,11 @@ Description |           |
 Relevance   | 60        | 
 Products    |           | An advice for the architecture for elasticsearch nodes, based on research.
 
-[9][PI09]
-    SHOULD: If the structure is to be made according to the student itself, else MAY.
+  |         |                                                                                       
+-:|:-------:|-----------|
+PI          | [9][PI09] | A student provides a logical, clear, feasible, manageable work breakdown structure for a complex task, assignment.
+Description |           | Breaking up the assignment in small tasks allows for easier communication about the task(s) at hand.
+Relevance   | 10        | 
 
 [10][PI10]
     SHOULD: An analysis is needed for the research.

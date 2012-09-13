@@ -99,13 +99,17 @@ Products    |           | Sections within advice and research documents.
   |         |                                                                                       
 -:|:-------:|-----------|
 PI          | [11][PI11]| A student communicates in a pleasant and effective manner with each other and with stakeholders.
-Description |           | Communication is necessary to transfer `bevindingen` to the target parties. Information contained will be clear and understandable.
+Description |           | Communication is necessary to transfer findings to the target parties. Information contained will be clear and understandable.
 Relevance   | 80        | Due to my internship being abroad keeping good contact is of high importance.
 Products    |           | 
 
+  |         |                                                                                       
+-:|:-------:|-----------|
+PI          | [12][PI12]| A student demonstrates in practice to be able to discuss in a result-oriented dialogue
+Description |           | To ascertain the current architecture an interview shall be held. The result of this interview will be used as reference when designing the architecture for elasticsearch nodes.
+Relevance   | 80        | Due to the possibility of the language barrier being an issue, conversations may stagger but should nonetheless still achieve their desired result.
+Products    |           | A section within the advice/research document.
 
-[12][PI12]
-    MUST:   Due to the possibility of the language barrier being an issue, conversations may stagger but should nonetheless still achieve their desired result.
 
 [14][PI14]
     MUST:   Due to the difference in experience of distributed systems a clear and concise view is mandatory for all parties.

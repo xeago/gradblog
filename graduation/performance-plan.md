@@ -138,8 +138,11 @@ Description |           | Reliability and verifiability of information are impor
 Relevance   | 80        | 
 Products    |           | Bibliography
 
-[19][PI19]
-    MUST:   Documentation provided must be 
+  |         |                                                                                       
+-:|:-------:|-----------|
+PI          | [19][PI19]| A student demonstrates in practice to be able to deliver effective documentation.
+Description |           | Documentation must serve a clear purpose without distractions and ambiguities.
+Relevance   | 80        | Maintaining a distributed architecture is no easy job, it should not be made harder by omitting useful documentation.
 
 [22][PI22]
     MUST:   Learning, from any origin, is of utmost importance for any software engineer.

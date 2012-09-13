@@ -116,14 +116,19 @@ PI          | [14][PI14]| A student gives an adequate view of the progress and r
 Description |           | Mentors obtain a basis of understanding by getting feedback early and often about the work performed and its results. This feedback contains concise, coherent information.
 Relevance   | 80        | 
 
+  |         |                                                                                       
+-:|:-------:|-----------|
+PI          | [15][PI15]| A student demonstrates in practice to be able to make a conceptual integer design.
+Description |           | 
+Relevance   | 80        | 
+Products    |           | Design of distributed search architecture (from advice/research documents), design of search.
 
-[15][PI15]
-    MUST:
-    HOW:    design of distributed search architecture, design of search
-
-[16][PI16]
-    MUST:
-    HOW:    Backtracking the designs made and the decisions within them later on in the internship.
+  |         |                                                                                       
+-:|:-------:|-----------|
+PI          | [16][PI16]| A student demonstrates in practice to be able to realize an integer design.
+Description |           | 
+Relevance   | 80        | 
+Note        |           | Backtracking the designs made and the decisions within them later on in the internship.
 
   |         |                                                                                       
 -:|:-------:|-----------|

@@ -144,8 +144,12 @@ PI          | [19][PI19]| A student demonstrates in practice to be able to deliv
 Description |           | Documentation must serve a clear purpose without distractions and ambiguities.
 Relevance   | 80        | Maintaining a distributed architecture is no easy job, it should not be made harder by omitting useful documentation.
 
-[22][PI22]
-    MUST:   Learning, from any origin, is of utmost importance for any software engineer.
+  |         |                                                                                       
+-:|:-------:|-----------|
+PI          | [22][PI22]| A student demonstrates in practice to have learned of work, mistakes.
+Description |           | While this internship will conclude with my graduation, learning is a process that never completes. Unfortunately, it is not feasible to log every skill or knowledge that is acquired. To compensate for this a short memo containing … reflect
+Relevance   | 100       | Learning, from any origin, is of utmost importance for any software engineer.
+Products    |           | 
 
 [original Dutch version]: http://infonet.hszuyd.nl/files/usr_beumersjpa/Toetsboeken%20I/Toetsboek%20I%20en%20TI%202011-2012.pdf
 [Education and Examination Regulations]: http://infonet.hszuyd.nl/files/usr_beumersjpa/Opleidingsregelingen%20I/OER%20I%20en%20TI%202012-2013.pdf

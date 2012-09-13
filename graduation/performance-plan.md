@@ -125,8 +125,11 @@ Relevance   | 80        |
     MUST:
     HOW:    Backtracking the designs made and the decisions within them later on in the internship.
 
-[17][PI17]
-    MUST:   Graduating is the last step before being active i
+  |         |                                                                                       
+-:|:-------:|-----------|
+PI          | [17][PI17]| A student demonstrates in practice his professional attitude (loyalty, honest, flexible, ..).
+Description |           | Soft skills are important in any project for a pleasant, successful execution. Examples of soft-skills are: cooperativeness, eagerness to learn, self criticism.
+Relevance   | 80        | 
 
 [18][PI18]
     MUST:   Information sources are mandatory to 

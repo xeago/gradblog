@@ -96,8 +96,13 @@ Description |           | Part of the end-result is an architecture for elastic 
 Relevance   | 65        | 
 Products    |           | Sections within advice and research documents.
 
-[11][PI11]
-    MUST:   Due to my internship being abroad keeping good contact is of high importance. Documentation should serve a clear purpose.
+  |         |                                                                                       
+-:|:-------:|-----------|
+PI          | [11][PI11]| A student communicates in a pleasant and effective manner with each other and with stakeholders.
+Description |           | Communication is necessary to transfer `bevindingen` to the target parties. Information contained will be clear and understandable.
+Relevance   | 80        | Due to my internship being abroad keeping good contact is of high importance.
+Products    |           | 
+
 
 [12][PI12]
     MUST:   Due to the possibility of the language barrier being an issue, conversations may stagger but should nonetheless still achieve their desired result.

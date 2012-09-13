@@ -110,9 +110,12 @@ Description |           | To ascertain the current architecture an interview sha
 Relevance   | 80        | Due to the possibility of the language barrier being an issue, conversations may stagger but should nonetheless still achieve their desired result.
 Products    |           | A section within the advice/research document.
 
+  |         |                                                                                       
+-:|:-------:|-----------|
+PI          | [14][PI14]| A student gives an adequate view of the progress and results of the work to create a bigger basis of understanding.
+Description |           | Mentors obtain a basis of understanding by getting feedback early and often about the work performed and its results. This feedback contains concise, coherent information.
+Relevance   | 80        | 
 
-[14][PI14]
-    MUST:   Due to the difference in experience of distributed systems a clear and concise view is mandatory for all parties.
 
 [15][PI15]
     MUST:

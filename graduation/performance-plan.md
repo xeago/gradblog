@@ -126,9 +126,8 @@ Products    |           | Design of distributed search architecture (from advice
   |         |                                                                                       
 -:|:-------:|-----------|
 PI          | [16][PI16]| A student demonstrates in practice to be able to realize an integer design.
-Description |           | 
+Description |           | Validated documentation with the implementation is part of the end-result. Backtracking the designs, and the decisions within them will serve as validation of the documentation.
 Relevance   | 80        | 
-Note        |           | Backtracking the designs made and the decisions within them later on in the internship.
 
   |         |                                                                                       
 -:|:-------:|-----------|

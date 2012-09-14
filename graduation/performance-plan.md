@@ -9,7 +9,7 @@ This document will be used during the assessment as source for the competencies 
 ---
 
 # Listing of performance indicators
-This listing is freely translated by the author. When in doubt or in event of conflict with the [original Dutch version], the latter will prevail.
+This listing is freely translated by the author. When in doubt or in event of conflict with the [original Dutch version][DutchPI], the latter will prevail.
 
 <ol>
 <li id="PI01" value="1">A student demonstrates in practice that the (SE) instruments (method / technique) have been effectively used.</li>
@@ -44,22 +44,22 @@ PI          | [1][PI01] | A student demonstrates in practice that the (SE) instr
 Description |           | Understanding and the ability to use suitable methods and techniques are key to being a professional software engineer. 
 Relevance   | 80        | 
 Instruments |           | Jekyll, tire & elasticsearch, capistrano, chef, ssh, git, MVC and more.
-Products    |           | Products
+Products    |           | End-result, including all other components that lead to the end-result.
 
   |         |                                                                                       
 -:|:-------:|-----------|
 PI          | [2][PI02] | A student demonstrates in practice on the basis of valid arguments to have taken a grounded (design) decision.
-Description |           | Decisiveness and the ability to recognize (in)valid arguments are key to a professional software engineer.
+Description |           | Decisiveness and the ability to recognize (in)valid arguments are key to a professional software engineer. Within the design of software, the system architecture and the system deployment process, decisions will be documented for demonstration purposes.
 Relevance   | 65        | During my orientating internship I was criticized for hesitating to make decisions. I wish to improve on this aspect.
-Areas       |           | Within the design of software, the system architecture and the system deployment process decisions will be documented for demonstration purposes.
-Products    |           | Products
+Products    |           | 
 
   |         |                                                                                       
 -:|:-------:|-----------|
 PI          | [3][PI03] | A student delivers a product, result that meets the agreed requirements and quality.
 Description |           | 
 Relevance   | 100       | I want to be evaluated on the result of my internship. Being able to deliver results is key to a professional software engineer.
-Products    |           | Products
+Products    |           | 
+**Note**    |           | At the time of writing it is uncertain if I wish to exhibit this PI.
 
 
   |         |                                                                                       
@@ -82,26 +82,29 @@ PI          | [6][PI06] | A student gives a business grounded, robust advice.
 Description |           | 
 Relevance   | 60        | 
 Products    |           | An advice for the architecture for elasticsearch nodes, based on research.
+**Note**    |           | At the time of writing it is uncertain if I wish to exhibit this PI.
 
   |         |                                                                                       
 -:|:-------:|-----------|
 PI          | [9][PI09] | A student provides a logical, clear, feasible, manageable work breakdown structure for a complex task, assignment.
 Description |           | Breaking up the assignment in small tasks allows for easier communication about the task(s) at hand.
 Relevance   | 10        | 
+Products    |           | 
+**Note**    |           | At the time of writing it is uncertain if I wish to exhibit this PI.
 
   |         |                                                                                       
 -:|:-------:|-----------|
 PI          | [10][PI10]| A student shows in the SE field to be able of making an adequate analysis and model of a complex problem as assessed by stakeholders.
 Description |           | Part of the end-result is an architecture for elastic search nodes. These will be described, analyzed and tested.
 Relevance   | 65        | 
-Products    |           | Sections within advice and research documents.
+Products    |           | Section(s) within advice and research documents.
 
   |         |                                                                                       
 -:|:-------:|-----------|
 PI          | [11][PI11]| A student communicates in a pleasant and effective manner with each other and with stakeholders.
 Description |           | Communication is necessary to transfer findings to the target parties. Information contained will be clear and understandable.
 Relevance   | 80        | Due to my internship being abroad keeping good contact is of high importance.
-Products    |           | 
+Products    |           | Archive of all communication.
 
   |         |                                                                                       
 -:|:-------:|-----------|
@@ -115,6 +118,7 @@ Products    |           | A section within the advice/research document.
 PI          | [14][PI14]| A student gives an adequate view of the progress and results of the work to create a bigger basis of understanding.
 Description |           | Mentors obtain a basis of understanding by getting feedback early and often about the work performed and its results. This feedback contains concise, coherent information.
 Relevance   | 80        | 
+Products    |           | Feedback messages.
 
   |         |                                                                                       
 -:|:-------:|-----------|
@@ -122,18 +126,21 @@ PI          | [15][PI15]| A student demonstrates in practice to be able to make 
 Description |           | 
 Relevance   | 80        | 
 Products    |           | Design of distributed search architecture (from advice/research documents), design of search.
+**Note**    |           | At the time of writing it is uncertain if I wish to exhibit this PI.
 
   |         |                                                                                       
 -:|:-------:|-----------|
 PI          | [16][PI16]| A student demonstrates in practice to be able to realize an integer design.
 Description |           | Validated documentation with the implementation is part of the end-result. Backtracking the designs, and the decisions within them will serve as validation of the documentation.
 Relevance   | 80        | 
+Products    |           | Documentation for the design of distributed search architecture (from advice/research documents) and the documentation for the design of search.
 
   |         |                                                                                       
 -:|:-------:|-----------|
 PI          | [17][PI17]| A student demonstrates in practice his professional attitude (loyalty, honest, flexible, ..).
 Description |           | Soft skills are important in any project for a pleasant, successful execution. Examples of soft-skills are: cooperativeness, eagerness to learn, self criticism.
 Relevance   | 80        | 
+Products    |           | Reflection of mentors and colleagues.
 
   |         |                                                                                       
 -:|:-------:|-----------|
@@ -146,16 +153,22 @@ Products    |           | Bibliography
 -:|:-------:|-----------|
 PI          | [19][PI19]| A student demonstrates in practice to be able to deliver effective documentation.
 Description |           | Documentation must serve a clear purpose without distractions and ambiguities.
-Relevance   | 80        | Maintaining a distributed architecture is no easy job, it should not be made harder by omitting useful documentation.
+Relevance   | 80        | Maintaining, extending a distributed architecture is no easy job, it should not be made harder by omitting useful documentation.
+Products    |           | Design documents.
 
   |         |                                                                                       
 -:|:-------:|-----------|
 PI          | [22][PI22]| A student demonstrates in practice to have learned of work, mistakes.
-Description |           | While this internship will conclude with my graduation, learning is a process that never completes. Unfortunately, it is not feasible to log every skill or knowledge that is acquired. To compensate for this a short memo containing … reflect
+Description |           | While this internship will conclude with my graduation, learning is a process that never completes. Unfortunately, it is not feasible to log every skill or knowledge that is acquired. To compensate for this, a short reflection-memo will be broadcasted monthly.
 Relevance   | 100       | Learning, from any origin, is of utmost importance for any software engineer.
-Products    |           | 
+Products    |           | Monthly memos.
 
-[original Dutch version]: http://infonet.hszuyd.nl/files/usr_beumersjpa/Toetsboeken%20I/Toetsboek%20I%20en%20TI%202011-2012.pdf
+
+#### References
++ [Dutch performance indicators][DutchPI], page 6: "Algemene Prestatie-indicatoren"
++ [Education and Examination Regulations]
+
+[DutchPI]: http://infonet.hszuyd.nl/files/usr_beumersjpa/Toetsboeken%20I/Toetsboek%20I%20en%20TI%202011-2012.pdf
 [Education and Examination Regulations]: http://infonet.hszuyd.nl/files/usr_beumersjpa/Opleidingsregelingen%20I/OER%20I%20en%20TI%202012-2013.pdf
 [PI01]: #PI01
 [PI02]: #PI02

@@ -41,7 +41,7 @@ This listing is freely translated by the author. When in doubt or in event of co
   |         |                                                                                       
 -:|:-------:|-----------|
 PI          | [1][PI01] | A student demonstrates in practice that the (SE) instruments (method / technique) have been effectively used.
-Description |           | Understanding and the ability to use suitable methods and techniques are key to being a professional software engineer. 
+Description |           | Understanding and the ability to use suitable methods and techniques are key to a professional software engineer. 
 Relevance   | 80        | 
 Instruments |           | Jekyll, tire & elasticsearch, capistrano, chef, ssh, git, MVC and more.
 Products    |           | End-result, including all other components that lead to the end-result.
@@ -95,7 +95,7 @@ Products    |           |
   |         |                                                                                       
 -:|:-------:|-----------|
 PI          | [10][PI10]| A student shows in the SE field to be able of making an adequate analysis and model of a complex problem as assessed by stakeholders.
-Description |           | Part of the end-result is an architecture for elastic search nodes. These will be described, analyzed and tested.
+Description |           | Part of the end-result is an architecture for elasticsearch nodes. These will be described, analyzed and tested.
 Relevance   | 65        | 
 Products    |           | Section(s) within advice and research documents.
 
@@ -116,7 +116,7 @@ Products    |           | A section within the advice/research document.
   |         |                                                                                       
 -:|:-------:|-----------|
 PI          | [14][PI14]| A student gives an adequate view of the progress and results of the work to create a bigger basis of understanding.
-Description |           | Mentors obtain a basis of understanding by getting feedback early and often about the work performed and its results. This feedback contains concise, coherent information.
+Description |           | Supervisors obtain a basis of understanding by getting feedback early and often about the work performed and its results. This feedback contains concise, coherent information.
 Relevance   | 80        | 
 Products    |           | Feedback messages.
 
@@ -140,7 +140,7 @@ Products    |           | Documentation for the design of distributed search arc
 PI          | [17][PI17]| A student demonstrates in practice his professional attitude (loyalty, honest, flexible, ..).
 Description |           | Soft skills are important in any project for a pleasant, successful execution. Examples of soft-skills are: cooperativeness, eagerness to learn, self criticism.
 Relevance   | 80        | 
-Products    |           | Reflection of mentors and colleagues.
+Products    |           | Reflection of supervisors and colleagues.
 
   |         |                                                                                       
 -:|:-------:|-----------|

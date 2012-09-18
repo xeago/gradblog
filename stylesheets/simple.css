@@ -172,6 +172,11 @@ hr {
   p, h1 {
     page-break-after: avoid;
   }
+  
+  div.ref {
+    display:none
+  }
+  
   @page {
     margin-top: .5in;
     margin-bottom: .5in;

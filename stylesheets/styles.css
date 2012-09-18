@@ -45,7 +45,6 @@ a:hover {
 }
 
 a small {
-  font-size:11px;
   color:#777;
   margin-top:-0.6em;
   display:block;
@@ -155,10 +154,6 @@ section p {
 section .padtop {
   float: right;
   padding-top: 1em;
-}
-
-small {
-  font-size:11px;
 }
 
 .left {

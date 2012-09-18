@@ -139,9 +139,9 @@ hr {
 }
 
 @media screen {
-  a[href^="http"]:after {
-    margin-left:3px;
-    content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAMAAAC67D+PAAAABGdBTUEAANbY1E9YMgAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAAJUExURZmZmczMzAAAANmeCzsAAAADdFJOU///ANfKDUEAAAAySURBVHjaTIxRDgAACEHp/oeOtJYPe02gJEQiIvf5RgzK6B/jUHoE7dNwehP1JowtwAAXDABpSdB7KgAAAABJRU5ErkJggg==);
+  a[href^="http"] {
+    padding-right:12px;
+    background: no-repeat right center url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAMAAAC67D+PAAAABGdBTUEAANbY1E9YMgAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAAJUExURZmZmczMzAAAANmeCzsAAAADdFJOU///ANfKDUEAAAAySURBVHjaTIxRDgAACEHp/oeOtJYPe02gJEQiIvf5RgzK6B/jUHoE7dNwehP1JowtwAAXDABpSdB7KgAAAABJRU5ErkJggg==);
   }
 }
 

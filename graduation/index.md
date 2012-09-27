@@ -11,3 +11,4 @@ title: Index
 +   [time management](time-management.html)
 +   [architecture/design](architecture/design.html)
 +   [architecture/requirements](architecture/requirements.html)
++   [architecture/musings](architecture/musings.html)

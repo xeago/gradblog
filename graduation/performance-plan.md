@@ -70,6 +70,7 @@ Relevance   | 50        | I want to be evaluated on the result of my internship.
 Products    |           | System for searching videos and related documentation.
 
 <div id="ref-PI05" class="ref"></div>
+
   |         |                                                                                       
 -:|:-------:|-----------|
 PI          | [5][PI05] | A student reports formally and adequately of the result and the progress of work.

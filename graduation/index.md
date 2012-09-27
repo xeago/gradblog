@@ -9,3 +9,5 @@ title: Index
 +   [performance plan](performance-plan.html)
 +   [status reports](status-reports.html)
 +   [time management](time-management.html)
++   [architecture/design](architecture/design.html)
++   [architecture/requirements](architecture/requirements.html)

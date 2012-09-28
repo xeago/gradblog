@@ -34,7 +34,7 @@ It is possible to have nodes outside of the regional area where the cluster is h
 The design proposed here makes no assumptions, nor restrictions on the storage format: the amount of indices, shards and nodes. Design (-considerations) for the indices, shards and nodes will be detailed elsewhere.
 
 # Client Library
-The ruby client, [Tire.rb](https://karmi.github.com/tire), only supports a single end-point. Hence if this end-point becomes unreachable, that client is unable to operate normally. The architectures proposed assume no changes to Tire.rb, it may be deemed necessary to alter the library. However, several work-arounds exist:
+The ruby client, [Tire.rb](http://karmi.github.com/tire), only supports a single end-point. Hence if this end-point becomes unreachable, that client is unable to operate normally. The architectures proposed assume no changes to Tire.rb, it may be deemed necessary to alter the library. However, several work-arounds exist:
 
 +   **Clever** — Run a no-data node of ES in front of (each of) the application-servers.  
     A no-data node handles discovery, routing and load-balancing of requests to the cluster and aids in master-election.

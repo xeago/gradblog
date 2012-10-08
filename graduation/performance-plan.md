@@ -41,25 +41,25 @@ This listing is freely translated by the author. When in doubt or in event of co
   |         |                                                                                       
 -:|:-------:|-----------|
 PI          | [1][PI01] | A student demonstrates in practice that the (SE) instruments (method / technique) have been effectively used.
-Description |           | Understanding and the ability to use suitable methods and techniques are key to a professional software engineer. 
+Description |           | Understanding and the ability to use suitable methods and techniques are key to a professional software engineer.
 Relevance   | 80        | 
 Instruments |           | Jekyll, tire & elasticsearch, capistrano, chef, ssh, git, MVC and more.
-Products    |           | End-result, including all other components that lead to the end-result.
+Products    |           | (description of the) usage of relevant instruments.
 
   |         |                                                                                       
 -:|:-------:|-----------|
 PI          | [2][PI02] | A student demonstrates in practice on the basis of valid arguments to have taken a grounded (design) decision.
-Description |           | Decisiveness and the ability to recognize (in)valid arguments are key to a professional software engineer. Within the design of software, the system architecture and the system deployment process, decisions will be documented for demonstration purposes.
+Description |           | Within the design of software, the system architecture and the system deployment process, decisions with their arguments will be documented.
 Relevance   | 65        | During my orientating internship I was criticized for hesitating to make decisions. I wish to improve on this aspect.
-Products    |           | 
+Products    |           | Argumentation for decisions found within documentation for the design of the distributed search architecture (from advice/research documents) and the documentation for the design of search.
 
   |         |                                                                                       
 -:|:-------:|-----------|
 PI          | [3][PI03] | A student delivers a product, result that meets the agreed requirements and quality.
-Description |           | 
+Description |           | An approved acceptance test will take place. Part(s) of this plan measures compliance with the agreed requirements and quality.
 Relevance   | 100       | I want to be evaluated on the result of my internship. Being able to deliver results is key to a professional software engineer.
-Products    |           | 
-**Note**    |           | At the time of writing it is uncertain if I wish to exhibit this PI.
+Products    |           | Acceptance test, documents that describe requirements and quality aspects.
+Note        |           | The specific documents will be (hyper-)linked here at a later stage of my internship.
 
 
   |         |                                                                                       
@@ -76,23 +76,14 @@ Products    |           | System for searching videos and related documentation.
 PI          | [5][PI05] | A student reports formally and adequately of the result and the progress of work.
 Description |           | A fortnightly report on status will be broadcasted. These reports will contain information about my activities and their outcomes.
 Relevance   | 30        | Due to my internship being abroad keeping good contact is of high importance.
-Products    |           | Raw e-mail messages.
+Products    |           | Raw e-mail messages, [status-reports], [memos].
 
   |         |                                                                                       
 -:|:-------:|-----------|
 PI          | [6][PI06] | A student gives a business grounded, robust advice.
-Description |           | 
+Description |           | Part of the end-result is the advice for the architecture for elasticsearch nodes. This advice will be backed by several documents providing additional information. The chief technology officer (CTO) of VideofyMe will review this advice and provide feedback which shall serve as verification.
 Relevance   | 60        | 
-Products    |           | An advice for the architecture for elasticsearch nodes, based on research.
-**Note**    |           | At the time of writing it is uncertain if I wish to exhibit this PI.
-
-  |         |                                                                                       
--:|:-------:|-----------|
-PI          | [9][PI09] | A student provides a logical, clear, feasible, manageable work breakdown structure for a complex task, assignment.
-Description |           | Breaking up the assignment in small tasks allows for easier communication about the task(s) at hand.
-Relevance   | 10        | 
-Products    |           | 
-**Note**    |           | At the time of writing it is uncertain if I wish to exhibit this PI.
+Products    |           | An advice for the architecture for elasticsearch nodes, based on research. Review of CTO.
 
   |         |                                                                                       
 -:|:-------:|-----------|
@@ -106,29 +97,21 @@ Products    |           | Section(s) within advice and research documents.
 PI          | [11][PI11]| A student communicates in a pleasant and effective manner with each other and with stakeholders.
 Description |           | Communication is necessary to transfer findings to the target parties. Information contained will be clear and understandable.
 Relevance   | 80        | Due to my internship being abroad keeping good contact is of high importance.
-Products    |           | Archive of all communication.
-
-  |         |                                                                                       
--:|:-------:|-----------|
-PI          | [12][PI12]| A student demonstrates in practice to be able to discuss in a result-oriented dialogue
-Description |           | To ascertain the current architecture an interview shall be held. The result of this interview will be used as reference when designing the architecture for elasticsearch nodes.
-Relevance   | 80        | Due to the possibility of the language barrier being an issue, conversations may stagger but should nonetheless still achieve their desired result.
-Products    |           | A section within the advice/research document.
+Products    |           | Archive of all textual-communication, reflection of stakeholders.
 
   |         |                                                                                       
 -:|:-------:|-----------|
 PI          | [14][PI14]| A student gives an adequate view of the progress and results of the work to create a bigger basis of understanding.
 Description |           | Supervisors obtain a basis of understanding by getting feedback early and often about the work performed and its results. This feedback contains concise, coherent information.
 Relevance   | 80        | 
-Products    |           | Feedback messages.
+Products    |           | Feedback messages, [status-reports], [memos], [portfolio](index.html).
 
-  |         |                                                                                       
+  |         |                                                                                           
 -:|:-------:|-----------|
 PI          | [15][PI15]| A student demonstrates in practice to be able to make a conceptual integer design.
-Description |           | 
+Description |           | Implementing an integer design should not lead to questions about the design. Prove of this can be established on two ways: successful implementation of the design can be used as prove of a design being integer and a survey of colleagues — knowledgeable in the domain.
 Relevance   | 80        | 
-Products    |           | Design of distributed search architecture (from advice/research documents), design of search.
-**Note**    |           | At the time of writing it is uncertain if I wish to exhibit this PI.
+Products    |           | Documentation for the design of distributed search architecture (from advice/research documents) and the documentation for the design of search. Survey results.
 
   |         |                                                                                       
 -:|:-------:|-----------|
@@ -165,6 +148,13 @@ Description |           | While this internship will conclude with my graduation
 Relevance   | 100       | Learning, from any origin, is of utmost importance for any software engineer.
 Products    |           | Monthly memos.
 
+
+# Products
++   [Memos]
++   [status-reports]
+
+[memos]: memos.html
+[status-reports]: status-reports.html
 
 #### References
 + [Dutch performance indicators][DutchPI], page 6: "Algemene Prestatie-indicatoren"

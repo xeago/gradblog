@@ -23,6 +23,9 @@ Performance plan                            |   40
 Team building                               |   15
 Documentation for school                    |       |   a lot of hours
 Extended abstract                           |       |   a lot of hours
+Failover/Discovery in [Tire]\(-[contrib])   |   70  |
+Ruby, (monkey-)patching                     |   10  |
+
 
 # Preliminary work
 <small>See the [first status report].</small>  
@@ -31,11 +34,17 @@ I experimented with different [lucene analyzers] to provide a short term solutio
 Hell, this plan was a lot of more work than I expected. I am still awaiting feedback from Rianne, but have gotten approval from Patrick. I also set up a proposal for my [development process].  
 *I have not recorded timerecords during this period. I was still setting up tooling to do so and felt getting my internship assignment and related documents clear was more important.*
 
-# Week of 24 September
+# 24 September - 6 October
 During this week I will be working on improving hashtag-search and unifying the current code base. I also reserve some time to validate documents made last week with my supervisors.
+
+# 7 October - 21 October
+In this timeframe I will refactor the old code to provide a more solid, re-useable implementation. As my [internship assignment] does not state an end-clause I will write a document about this. If time allows I will investigate more on how to patch existing Ruby code and possibly attempt to implement a minor feature in [tire-contrib].
 
 [first status report]: status-reports.html
 [development process]: development-process.html
 [internship assignment]: graduation-assignment.html
 [lucene analyzers]: http://lucene.apache.org/core/old_versioned_docs/versions/3_0_1/api/all/org/apache/lucene/analysis/Analyzer.html
 [performance plan]: performance-plan.html
+[tire]: https://github.com/karmi/tire
+[tire-contrib]: https://github.com/karmi/tire-contrib
+[contrib]: https://github.com/karmi/tire-contrib

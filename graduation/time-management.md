@@ -23,8 +23,10 @@ Performance plan                            |   40
 Team building                               |   15
 Documentation for school                    |       |   a lot of hours
 Extended abstract                           |       |   a lot of hours
-Failover/Discovery in [Tire]\(-[contrib])   |   70  |
+Failover/Discovery in [Tire]\(-[contrib])   |   140 |
 Ruby, (monkey-)patching                     |   10  |
+Learning ES query language                  |   100 |
+Implementing search for videos              |   30  | recurring
 
 
 # Preliminary work

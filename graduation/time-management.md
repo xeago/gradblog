@@ -42,6 +42,9 @@ During this week I will be working on improving hashtag-search and unifying the 
 # 7 October - 21 October
 In this timeframe I will refactor the old code to provide a more solid, re-useable implementation. As my [internship assignment] does not state an end-clause I will write a document about this. If time allows I will investigate more on how to patch existing Ruby code and possibly attempt to implement a minor feature in [tire-contrib].
 
+# 29 October -  11 November
+Implementing the design is nearly complete. I will add a component to do hashtag search within the design. I haven't managed to get to write about the end-clause about my internship — I will have to do this before the mid of my graduation.
+
 [first status report]: status-reports.html
 [development process]: development-process.html
 [internship assignment]: graduation-assignment.html

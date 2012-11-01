@@ -5,6 +5,10 @@ title: Status reports
 
 These reports contain a fortnightly summary of the activities and their results, according to my [performance plan — PI05](performance-plan.html#ref-PI05).
 
+# 2012-10-08 — Video conference
+<small>This is just a quick update.</small>
+In this video conference we talked about my current progress and how to continue. We iterated over the [performance plan]. A lot of details regarding my graduation were made clear today. Two examples are the fact that there is no end-clause defined (in my assignment), aswell as the issues regarding the date of my graduation at school.
+
 # 2012-10-02 — Not supported? Open source!
 During the last week I worked on my [architecture proposals]. It is **important** to also read my own [musings] about this design and the [requirements]. Patrick has given me an *OK* to add this support to Tire. I've established contact with [Karmi](http://karmi.cz/en), the author of the library.  
 I heard from Rianne! Later this week we're having a videoconference to talk about my [performance plan]. It took a while to get her to look at my performance plan, I guess she was busy. I'll also discuss the other documents in [graduation]: [development process], [time management].

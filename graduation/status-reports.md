@@ -5,6 +5,12 @@ title: Status reports
 
 These reports contain a fortnightly summary of the activities and their results, according to my [performance plan — PI05](performance-plan.html#ref-PI05).
 
+# 2012-11-01 — Woah, I'm late!
+Implementing the design has gone good. <small>Ruby proves to be an amazing tool</small>. I didn't manage to write about the end-clause of my graduation, unfortunately. I do want this done before the 60% mark.  
+While implementing the design I felt my knowledge of the [elasticsearch query language][Query-DSL] was severely lacking. Therefore I devoted time this.
+
+It may seem I didn't get much done this time-frame; I can't argue against it. I however feel that the time was well-spent. I had (and at the time of writing still have) an injury to my right thumb which limits my typing. But I have also been procrastinating implementing stuff because the query language was awesome.
+
 # 2012-10-08 — Video conference
 <small>This is just a quick update.</small>
 In this video conference we talked about my current progress and how to continue. We iterated over the [performance plan]. A lot of details regarding my graduation were made clear today. Two examples are the fact that there is no end-clause defined (in my assignment), aswell as the issues regarding the date of my graduation at school.

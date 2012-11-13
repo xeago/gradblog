@@ -5,6 +5,9 @@ title: Status reports
 
 These reports contain a fortnightly summary of the activities and their results, according to my [performance plan — PI05](performance-plan.html#ref-PI05).
 
+# 2012-11-13 — More work?
+Well, hashtag search is finished, the design looks solid and has shown to be easy to extend. Coming weeks I will work on integrating my work with the other services at [VideofyMe](http://www.videofy.me).
+
 # 2012-11-01 — Woah, I'm late!
 Implementing the design has gone good. <small>Ruby proves to be an amazing tool</small>. Unfortunately I didn't manage to write about the end-clause of my graduation. I do want this done before the 60% mark.  
 While implementing the design I felt my knowledge of the [elasticsearch query language][Query-DSL] was severely lacking. Therefore I devoted time to this.

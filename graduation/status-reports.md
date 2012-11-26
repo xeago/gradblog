@@ -5,6 +5,9 @@ title: Status reports
 
 These reports contain a fortnightly summary of the activities and their results, according to my [performance plan — PI05](performance-plan.html#ref-PI05).
 
+# 2012-11-26 — Still the same…
+Integration is an ongoing effort; I am continuing the integration with consuming services.
+
 # 2012-11-13 — More work?
 Well, hashtag search is finished, the design looks solid and has shown to be easy to extend. Coming weeks I will work on integrating my work with the other services at [VideofyMe](http://www.videofy.me).
 
@@ -13,6 +16,8 @@ Implementing the design has gone good. <small>Ruby proves to be an amazing tool<
 While implementing the design I felt my knowledge of the [elasticsearch query language][Query-DSL] was severely lacking. Therefore I devoted time to this.
 
 It may seem I didn't get much done in this time-frame; I can't argue against it. However, I feel that the time was well-spent. I had (and at the time of writing still have) an injury to my right thumb which limits my ability to effectively use a keyboard. But I have also been procrastinating implementing stuff because the query language was awesome.
+
+[Query-DSL]: http://www.elasticsearch.org/guide/reference/query-dsl/
 
 # 2012-10-08 — Video conference
 <small>This is just a quick update.</small>

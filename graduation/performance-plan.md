@@ -42,7 +42,7 @@ This listing is freely translated by the author. When in doubt or in event of co
 -:|:-------:|-----------|
 PI          | [1][PI01] | A student demonstrates in practice that the (SE) instruments (method / technique) have been effectively used.
 Description |           | Understanding and the ability to use suitable methods and techniques are key to a professional software engineer.
-Relevance   | 80        | 
+Relevance   | 4         | 
 Instruments |           | Jekyll, tire & elasticsearch, capistrano, chef, ssh, git, MVC and more.
 Products    |           | (description of the) usage of relevant instruments.
 
@@ -50,14 +50,14 @@ Products    |           | (description of the) usage of relevant instruments.
 -:|:-------:|-----------|
 PI          | [2][PI02] | A student demonstrates in practice on the basis of valid arguments to have taken a grounded (design) decision.
 Description |           | Within the design of software, the system architecture and the system deployment process, decisions with their arguments will be documented.
-Relevance   | 65        | During my orientating internship I was criticized for hesitating to make decisions. I wish to improve on this aspect.
+Relevance   | 3        | During my orientating internship I was criticized for hesitating to make decisions. I wish to improve on this aspect.
 Products    |           | Argumentation for decisions found within documentation for the design of the distributed search architecture (from advice/research documents) and the documentation for the design of search.
 
   |         |                                                                                       
 -:|:-------:|-----------|
 PI          | [3][PI03] | A student delivers a product, result that meets the agreed requirements and quality.
 Description |           | An approved acceptance test will take place. Part(s) of this plan measures compliance with the agreed requirements and quality.
-Relevance   | 100       | I want to be evaluated on the result of my internship. Being able to deliver results is key to a professional software engineer.
+Relevance   | 5         | I want to be evaluated on the result of my internship. Being able to deliver results is key to a professional software engineer.
 Products    |           | Acceptance test, documents that describe requirements and quality aspects.
 Note        |           | The specific documents will be (hyper-)linked here at a later stage of my internship.
 
@@ -66,7 +66,7 @@ Note        |           | The specific documents will be (hyper-)linked here at 
 -:|:-------:|-----------|
 PI          | [4][PI04] | A student demonstrates that a product has been adequately validated.
 Description |           | A result for the wrong problem is not the desired result, therefore an approved acceptance test will take place.
-Relevance   | 50        | I want to be evaluated on the result of my internship. Being able to deliver the desired result is key to a professional software engineer.
+Relevance   | 2         | I want to be evaluated on the result of my internship. Being able to deliver the desired result is key to a professional software engineer.
 Products    |           | System for searching videos and related documentation.
 
 <div id="ref-PI05" class="ref"></div>
@@ -75,77 +75,77 @@ Products    |           | System for searching videos and related documentation.
 -:|:-------:|-----------|
 PI          | [5][PI05] | A student reports formally and adequately of the result and the progress of work.
 Description |           | A fortnightly report on status will be broadcasted. These reports will contain information about my activities and their outcomes.
-Relevance   | 30        | Due to my internship being abroad keeping good contact is of high importance.
+Relevance   | 1         | Due to my internship being abroad keeping good contact is of high importance.
 Products    |           | Raw e-mail messages, [status-reports], [memos].
 
   |         |                                                                                       
 -:|:-------:|-----------|
 PI          | [6][PI06] | A student gives a business grounded, robust advice.
 Description |           | Part of the end-result is the advice for the architecture for elasticsearch nodes. This advice will be backed by several documents providing additional information. The chief technology officer (CTO) of VideofyMe will review this advice and provide feedback which shall serve as verification.
-Relevance   | 60        | 
+Relevance   | 3         | 
 Products    |           | An advice for the architecture for elasticsearch nodes, based on research. Review of CTO.
 
   |         |                                                                                       
 -:|:-------:|-----------|
 PI          | [10][PI10]| A student shows in the SE field to be able of making an adequate analysis and model of a complex problem as assessed by stakeholders.
 Description |           | Part of the end-result is an architecture for elasticsearch nodes. These will be described, analyzed and tested.
-Relevance   | 65        | 
+Relevance   | 3         | 
 Products    |           | Section(s) within advice and research documents.
 
   |         |                                                                                       
 -:|:-------:|-----------|
 PI          | [11][PI11]| A student communicates in a pleasant and effective manner with each other and with stakeholders.
 Description |           | Communication is necessary to transfer findings to the target parties. Information contained will be clear and understandable.
-Relevance   | 80        | Due to my internship being abroad keeping good contact is of high importance.
+Relevance   | 4         | Due to my internship being abroad keeping good contact is of high importance.
 Products    |           | Archive of all textual-communication, reflection of stakeholders.
 
   |         |                                                                                       
 -:|:-------:|-----------|
 PI          | [14][PI14]| A student gives an adequate view of the progress and results of the work to create a bigger basis of understanding.
 Description |           | Supervisors obtain a basis of understanding by getting feedback early and often about the work performed and its results. This feedback contains concise, coherent information.
-Relevance   | 80        | 
+Relevance   | 4         | 
 Products    |           | Feedback messages, [status-reports], [memos], [portfolio](index.html).
 
   |         |                                                                                           
 -:|:-------:|-----------|
 PI          | [15][PI15]| A student demonstrates in practice to be able to make a conceptual integer design.
 Description |           | Implementing an integer design should not lead to questions about the design. Prove of this can be established on two ways: successful implementation of the design can be used as prove of a design being integer and a survey of colleagues — knowledgeable in the domain.
-Relevance   | 80        | 
+Relevance   | 4         | 
 Products    |           | Documentation for the design of distributed search architecture (from advice/research documents) and the documentation for the design of search. Survey results.
 
   |         |                                                                                       
 -:|:-------:|-----------|
 PI          | [16][PI16]| A student demonstrates in practice to be able to realize an integer design.
 Description |           | Validated documentation with the implementation is part of the end-result. Backtracking the designs, and the decisions within them will serve as validation of the documentation.
-Relevance   | 80        | 
+Relevance   | 4         | 
 Products    |           | Documentation for the design of distributed search architecture (from advice/research documents) and the documentation for the design of search.
 
   |         |                                                                                       
 -:|:-------:|-----------|
 PI          | [17][PI17]| A student demonstrates in practice his professional attitude (loyalty, honest, flexible, ..).
 Description |           | Soft skills are important in any project for a pleasant, successful execution. Examples of soft-skills are: cooperativeness, eagerness to learn, self criticism.
-Relevance   | 80        | 
+Relevance   | 4         | 
 Products    |           | Reflection of supervisors and colleagues.
 
   |         |                                                                                       
 -:|:-------:|-----------|
 PI          | [18][PI18]| A student demonstrates in practice to have used all available information sources effectively and efficiently for the stated objective.
 Description |           | Reliability and verifiability of information are important for the end-result. Information sources will be carefully considered and cited in a bibliography.
-Relevance   | 80        | 
+Relevance   | 4         | 
 Products    |           | Bibliography
 
   |         |                                                                                       
 -:|:-------:|-----------|
 PI          | [19][PI19]| A student demonstrates in practice to be able to deliver effective documentation.
 Description |           | Documentation must serve a clear purpose without distractions and ambiguities.
-Relevance   | 80        | Maintaining, extending a distributed architecture is no easy job, it should not be made harder by omitting useful documentation.
+Relevance   | 4         | Maintaining, extending a distributed architecture is no easy job, it should not be made harder by omitting useful documentation.
 Products    |           | Design documents.
 
   |         |                                                                                       
 -:|:-------:|-----------|
 PI          | [22][PI22]| A student demonstrates in practice to have learned of work, mistakes.
 Description |           | While this internship will conclude with my graduation, learning is a process that never completes. Unfortunately, it is not feasible to log every skill or knowledge that is acquired. To compensate for this, a short reflection-memo will be broadcasted monthly.
-Relevance   | 100       | Learning, from any origin, is of utmost importance for any software engineer.
+Relevance   | 5         | Learning, from any origin, is of utmost importance for any software engineer.
 Products    |           | Monthly memos.
 
 

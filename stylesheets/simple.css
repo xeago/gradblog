@@ -55,11 +55,21 @@ section {
   body {
     font-size:10pt;
   }
-  li, table, p {
+	
+  li, table {
     page-break-inside: avoid;
+		page-break-before: avoid;
+  }
+	
+  p {
+    page-break-before: avoid;
   }
   
-  p, h1 {
+  h1#title {
+    margin-top:.5em;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
     page-break-after: avoid;
   }
 

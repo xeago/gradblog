@@ -5,6 +5,18 @@ title: Status reports
 
 These reports contain a fortnightly summary of the activities and their results, according to my [performance plan — PI05](performance-plan.html#ref-PI05).
 
+# 2013-01-14 — Work, work.
+Working hard on my extended abstract. I hope to have an initial draft ready by the end of this week. Words are just not flowing out of my mind it seems. I really have to finish up a reasonable initial draft and get it reviewed by other people so my mind can flush the word caches.
+
+# 2013-01-01 — New years resolutions!
+1. Graduate
+
+# 2012-12-13 — Video conference
+<small>No full update here because this was done during the Video conference</small>.
+
++ Start with the extended abstract soon; because I have to make two of them.
++ Graduation in the week of February the 28th.
+
 # 2012-11-26 — Still the same…
 Integration is an ongoing effort; I am continuing the integration with consuming services.
 

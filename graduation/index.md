@@ -1,6 +1,6 @@
 ---
 layout: simple
-title: Index
+title: Index of /graduation/
 ---
 +   [..](..)
 +   [development process](development-process.html)

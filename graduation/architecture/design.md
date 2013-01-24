@@ -3,7 +3,8 @@ layout: simple
 title: Architectural design for (elastic)search
 ---
 
-This document describes propositional designs that comply with and fulfill the requirements described in the [architecture requirements document](requirements.html).
+This document describes propositional designs that comply with and fulfill the requirements described in the [architecture requirements document](requirements.html).  
+All proposed designs have undergone testing by the author, results can be found in the [test results](test-results.html). The authors opinion on this and the test-results can be found in his [musings](musings.html).
 
 # Current
 There are 4 instances of the VideofyMe API. These have a connection with a central MySQL-database (ARDS), updates to rows in mysql are pushed to elasticsearch in after-hook events. All 4 API-instances

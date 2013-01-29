@@ -5,6 +5,13 @@ title: Status reports
 
 These reports contain a fortnightly summary of the activities and their results, according to my [performance plan — PI05](performance-plan.html#ref-PI05).
 
+# 2013-01-28 — Are we there yet?
+The past two weeks were intense. I tested everything a final time. I deployed to
+my own AWS account. Waiting for an `OK` from Patrick and Julia. The extended
+abstract is also nicely underway. Due to a laptop crash around december I am now
+missing some documents I want to use as a resource, but it should be trivial to
+retrieve or redo them.
+
 # 2013-01-14 — Work, work.
 Working hard on my extended abstract. I hope to have an initial draft ready by the end of this week. Words are just not flowing out of my mind it seems. I really have to finish up a reasonable initial draft and get it reviewed by other people so my mind can flush the word caches.
 

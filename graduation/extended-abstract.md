@@ -140,7 +140,7 @@ been omitted.
 Web         | Contains user facing systems.
 Frontend    | Webserver, uses the OpenAPI for data.
 OpenAPI     | Wrapper for API. Accessed by iframe-embeds, iPhone & Android application.
-[Redis]     | Fast reliable distributed key-value store.
+Redis       | Fast reliable distributed key-value store.
 Redis Slave | Local redis instance synchronized with master.
 Uploader    | Accepts video uploads from users and persists them to S3.
 S3 (topleft)| Video and thumbnail storage.
@@ -195,7 +195,13 @@ defaults.
 
 ### Plaintext search
 <small>This section is anecdotal as it details Twans personal perceptions.</small>
-> + First time I have to deal with search.
+I initially thought I was only implementing an API and attaching that to 
+VideofyMe's code. Boy, was I wrong. I think I got this illusion from a
+Railscasts video using *Thinking Sphinx*, which has a quite a limited set of
+features. I was completely blown away by the text analysis that Elasticsearch
+can do. Things like ICU, stemming and ngrams, I didn't even know such analysis
+existed. Previously, I implemented search with a fuzzy regular expression after
+splitting on several characters, no longer!
 
 #### Terms
 Designing good schemata to optimize your search results is completely different
@@ -249,7 +255,7 @@ a wrapper, it does no input validations.
 The infrastructure has been tested, details are written down in the
 [test results]. As the old infrastructure is by itself unchanged only the new
 components were tested. Twan has written down his [musings], below a short
-quote:
+quote: <!-- Should this be in the results section instead? -->
 > I didn't expect Elasticsearch as a load balancer to perform this well. However
 it is still the most costly option: memory is measured per node not per cluster,
 Elasticsearch has to run on at least half the client-nodes. Regardless of this,
@@ -264,6 +270,7 @@ administrator. Improvements in quality of the search results is determined by a
 questionnaire held among VideofyMe employees.  <!-- TODO: Link to test results. -->
 
 # Results
+
 
 
 # Other realizations

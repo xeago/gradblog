@@ -270,8 +270,29 @@ administrator. Improvements in quality of the search results is determined by a
 questionnaire held among VideofyMe employees.  <!-- TODO: Link to test results. -->
 
 # Results
+This section elaborates on the results of my internship and the current status
+of Twans work at VideofyMe.
 
+## Current status
+The proposed infrastructure has been approved. While deploying, Amazon Web
+Services (AWS) did not allow the creation of additional instances. This turned
+out not to be a deal breaker. The existing instance has been re-used to put the
+cluster in a mode of reduced redundancy but fully operational.
 
+## Database
+With the Elasticsearch cluster operational, it can take strain off the database.
+To do this, the VideofyMe API has also received an update to take advantage of
+the Elasticsearch cluster. Below a chart of the drop in system resources
+measured around the time of deployment.
+
+![databaseresources](architecture/infrastructure/databaseresources.png)
+
+## Quality of search results
+Quality of search results can not be measured in concrete values or units. The
+outcome of the questionaire will determine whether the new system improved the
+quality of search results. The questionnaire is distributed amongst Videofyme
+employees, as their extensive use of the service closely reflects that of the
+actual userbase.
 
 # Other realizations
 + Serving videos requires a lot of tracking to make it profitable

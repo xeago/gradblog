@@ -21,8 +21,8 @@ education at [Zuyd Hogeschool]. Twan intends to finish his education at an
 accelerated pace, in 3.5 years — instead of the usual 4 years.
 
 ## VideofyMe
-Videofyme is a technology-startup doing video hosting with custom developed,
-unique features.
+Videofyme is a technology startup company doing video hosting with custom
+developed, unique features.
 > VideofyMe was founded April 2009 by Robert Mellberg and Oskar Glauser with
   the goal to build the smartest and easiest to use video service for blogs and
   websites.
@@ -38,7 +38,7 @@ on [Github: Jobs](http://jobs.github.com).
 
 ## Work environment
 From August 2012 through February 2013 Twan has been operational in VideofyMe's
-office; located at [Tullhus 3, Skeppsbron 111 30 Stockholm, Sweden](http://g.co/maps/2fvk8).
+offices; located at [Tullhus 3, Skeppsbron 111 30 Stockholm, Sweden](http://g.co/maps/2fvk8).
 
 <!-- ## Test Results: I think the location for this node is weird. -->
 <!-- Theoretic framework: I think the location for this node is weird.
@@ -58,7 +58,7 @@ of the initial document.
   50 million video views per month. VideofyMe is a global service that has
   paid more than 1,000,000 USD to its members.
 > # YOU
-  We are looking for talented developers who have worked with and build
+  We are looking for talented developers who have worked with and built
   social media tools. We want you to have a good understanding of how
   users think and what they want to achieve. You should know what the
   important triggers in social media are, and what it is which makes
@@ -71,15 +71,15 @@ of the initial document.
   the company.
 > > From [http://blog.xeago.nl/assets/internship/videofyme-internship.html](http://blog.xeago.nl/assets/internship/videofyme-internship.html)
 
-Several weeks before summer holidays Patrick communicated to Twan a common
+Several weeks before the summer holidays Patrick communicated to Twan a common
 request. Users requested higher quality search results. Staff requested
 a non-critical database. Earlier investigation showed that the search queries
 were hammering down the database. With a growing userbase and inefficient
 search-queries the database suffered in performance. This information further
 specified the [assignment](graduation-assignment.html). In summary, Twan would
 be responsible for search and related functionalities at VideofyMe. The goal of
-the assignment is to decrease the strain on the database and improve the quality
-of the search results.
+the assignment would be to decrease the strain on the database and improve the
+quality of the search results.
 
 Patrick decided to use Elasticsearch for a distributed full-text search
 environment. This would remove the strain from the database and open up
@@ -95,8 +95,8 @@ Details about my first impressions can be found in my [status reports] and
 -->
 
 Quite early on investors wanted hashtag functionality across the board. This was
-the first component to be implemented that was not initially anticipated with
-the further specified assignment.
+the first component to be implemented that was not initially anticipated and
+would further specify the assignment.
 
 The complexities of this assignment are to be found in areas of textual analysis,
 of distributed systems, of unknown programming environment and frameworks, and
@@ -104,11 +104,11 @@ cultural differences.
 
 # Method
 VideofyMe works with development cycles of around 2 weeks. When work is
-considered done it gets deployed to production, unless there is a desire to do
+considered done it gets deployed to production, unless there is a desire not to do
 so. At the start of each cycle the previous cycle is reviewed and new work is
 scheduled.  
 To fit in with their development cycle, Twan proposed a similar
-[development cycle]. The priority within each cycle is as follows: improve the
+[development cycle]. The priority within each cycle was as follows: improve the
 codebase, design and architecture and secondly introduce new features or
 behavior.  
 This flexibility and the nature of the assignment caused the assignment to evolve
@@ -117,7 +117,7 @@ over time and be clearer.
 Initially, the architecture in use at VideofyMe will be discussed and new
 components will be introduced. Next, the changes to the infrastructure will be
 discussed and test results of the new infrastructure will be provided. Finally,
-the discussion will cover how the software is composed from extensible
+the discussion will cover how the software is composed of extensible
 components.
 
 <!-- Somehow have to incorporate these things:
@@ -139,7 +139,7 @@ been omitted.
 -----------:|:-------
 Web         | Contains user facing systems.
 Frontend    | Webserver, uses the OpenAPI for data.
-OpenAPI     | Wrapper for API. Accessed by iframe-embeds, iPhone & Android application.
+OpenAPI     | Wrapper for API. Accessed by iframe-embeds, iPhone & Android applications.
 Redis       | Fast reliable distributed key-value store.
 Redis Slave | Local redis instance synchronized with master.
 Uploader    | Accepts video uploads from users and persists them to S3.
@@ -194,14 +194,14 @@ they can be accomplished. One should be careful when deviating from these
 defaults.
 
 ### Plaintext search
-<small>This section is anecdotal as it details Twans personal perceptions.</small>
+<small>This section is anecdotal as it details my personal perceptions.</small>
 I initially thought I was only implementing an API and attaching that to 
 VideofyMe's code. Boy, was I wrong. I think I got this illusion from a
-Railscasts video using *Thinking Sphinx*, which has a quite a limited set of
+Railscasts video using *Thinking Sphinx*, which has quite a limited set of
 features. I was completely blown away by the text analysis that Elasticsearch
 can do. Things like ICU, stemming and ngrams, I didn't even know such analysis
 existed. Previously, I implemented search with a fuzzy regular expression after
-splitting on several characters, no longer!
+splitting on several characters. No longer!
 
 #### Terms
 Designing good schemata to optimize your search results is completely different
@@ -252,38 +252,39 @@ DSL that Elasticsearch provides, but in a Ruby DSL. Therefore it is essentially
 a wrapper, it does no input validations.
 
 ## Testing the system
-The infrastructure has been tested, details are written down in the
-[test results]. As the old infrastructure is by itself unchanged only the new
-components were tested. Twan has written down his [musings], below a short
+The infrastructure has been tested, details have been written down in the
+[test results]. As the old infrastructure itself has remained unchanged only the
+new components were tested. I have written down my [musings]. Below is a short
 quote: <!-- Should this be in the results section instead? -->
-> I didn't expect Elasticsearch as a load balancer to perform this well. However
-it is still the most costly option: memory is measured per node not per cluster,
-Elasticsearch has to run on at least half the client-nodes. Regardless of this,
-the benefits that Elasticsearch provide — most notably automatic cluster
-discovery, routing and ease of configuration — far exceed the reduction in
-memory when choosing HAProxy or Nginx.
+> I didn't expect Elasticsearch as a load balancer to perform this well.
+However, since Elasticsearch has to run on at least half the clients-nodes, it
+is still the most costly option: memory is measured per node and not per
+cluster. Regardless of this, the benefits that Elasticsearch provides — most
+notably automatic cluster discovery, routing and ease of configuration — far
+exceed the reduction in memory when choosing HAProxy or Nginx.
 > > From [architecture/musings.md](architecture/musings.md) — Twan Wolthof
 
-The newly written code for the internship assignment is unit-tested using
-[rspec] and [rr]. Database performance is determined by questioning the system
+The newly written code for the internship assignment was unit-tested using
+[rspec] and [rr]. Database performance was determined by questioning the system
 administrator. Improvements in quality of the search results is determined by a
 questionnaire held among VideofyMe employees.  <!-- TODO: Link to test results. -->
 
 # Results
 This section elaborates on the results of my internship and the current status
-of Twans work at VideofyMe.
+of my work at VideofyMe.
 
 ## Current status
-The proposed infrastructure has been approved. While deploying, Amazon Web
-Services (AWS) did not allow the creation of additional instances. This turned
-out not to be a deal breaker. The existing instance has been re-used to put the
-cluster in a mode of reduced redundancy but fully operational.
+The proposed infrastructure has been approved. While deploying the new
+infrastructure, Amazon Web Services (AWS) did not allow the creation of
+additional instances. This turned out not to be a deal breaker. The existing
+instance has been re-used to deploy on. This put the cluster in a mode of
+reduced redundancy but fully operational.
 
 ## Database
-With the Elasticsearch cluster operational, it can take strain off the database.
-To do this, the VideofyMe API has also received an update to take advantage of
-the Elasticsearch cluster. Below a chart of the drop in system resources
-measured around the time of deployment.
+With the Elasticsearch cluster operational, it can take the strain off the
+database. To achieve this, the VideofyMe API also received an update to take
+advantage of the Elasticsearch cluster. Below is a chart of the drop in system
+resources measured around the time of deployment.
 
 ![databaseresources](architecture/infrastructure/databaseresources.png)
 

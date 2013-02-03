@@ -284,9 +284,18 @@ reduced redundancy but fully operational.
 With the Elasticsearch cluster operational, it can take the strain off the
 database. To achieve this, the VideofyMe API also received an update to take
 advantage of the Elasticsearch cluster. Below is a chart of the drop in system
-resources measured around the time of deployment.
+resources utilized, measured around the time of deployment.
 
-![databaseresources](architecture/infrastructure/databaseresources.png)
+![databaseresources](architecture/infrastructure/databaseresources.png "Database resource utilization around the moment of deployment.")
+
+Metric        | Description
+-------------:|:-------
+Load Average  | The number of processes (computations) ready to run, measured in an exponentially weighted average over the last minute sampled every 5 seconds.
+Active Memory | The memory actively being (re-)used. Includes all memory other than data, executable memory and caches.
+
+The database instance has 2 VCPUs (virtual central processing units). A load
+average of above 2 is therefore concerning. The drop in resource utilization can
+be seen clearly at the 10 minute mark.
 
 ## Quality of search results
 Quality of search results can not be measured in concrete values or units. The

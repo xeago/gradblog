@@ -7,6 +7,8 @@ title: Extended Abstract — Twan Wolthof
 Using http://blackboard.hszuyd.nl/bbcswebdav/courses/HIO-IT4-I4-I8-stage-afstuderen/Documenten/Docs_Afst_Stage/SE/ExtendedAbstractStageEnAfstuderen.pdf as a reference.
 -->
 
+<!-- Todo: insert people table -->
+
 # Introduction
 This extended abstract documents the internship period of Twan Wolthof at
 VideofyMe. It forms the main document that will be used in the final assessment
@@ -33,8 +35,11 @@ on [Github: Jobs](http://jobs.github.com).
 <!-- The advertisement has now expired. -->
 
 <!-- I repeatedly asked if this section was supposed to be included,
-  it was not. -->
+  it was not. However, due to the technical level of this document it might be
+  smart to include a 'primer'. -->
 <!-- # Abstract -->
+
+<!-- discuss people? -->
 
 ## Work environment
 From August 2012 through February 2013 Twan has been operational in VideofyMe's
@@ -50,7 +55,7 @@ It transformed over time based on new requirements and insight. Below is a copy
 of the initial document.
 
 > # VIDEOFY.ME
-> VideofyMe is a video service that connects publishers with followers and
+  VideofyMe is a video service that connects publishers with followers and
   advertisers. The publisher uploads a video through mobile apps or our
   website and spreads it to their followers. Users then earn money on
   advertisements which we book on their videos, if desired.
@@ -82,8 +87,8 @@ the assignment would be to decrease the strain on the database and improve the
 quality of the search results.
 
 Patrick decided to use Elasticsearch for a distributed full-text search
-environment. This should remove the strain from the database and open up
-possibilities to improve the quality of the search results.
+environment. Using this system, the strain should be removed from the database
+and open up possibilities to improve the quality of the search results.
 
 <!-- This paragraph below is in wrong tense. It is also in the wrong place -->
 <!--

@@ -9,8 +9,8 @@ Using http://blackboard.hszuyd.nl/bbcswebdav/courses/HIO-IT4-I4-I8-stage-afstude
 
 # Introduction
 This extended abstract documents the internship period of Twan Wolthof at
-VideofyMe. It will be the main document used in the final assessment of Twan's
-graduation.
+VideofyMe. It forms the main document that will be used in the final assessment
+of Twan's graduation.
 
 This document assumes *some* knowledge of programming, distributed systems,
 cloud services and system administration.
@@ -74,7 +74,7 @@ of the initial document.
 Several weeks before the summer holidays Patrick communicated to Twan a common
 request. Users requested higher quality search results. Staff requested
 a non-critical database. Earlier investigation showed that the search queries
-were hammering down the database. With a growing userbase and inefficient
+were crippling the database. With a growing userbase and inefficient
 search-queries the database suffered in performance. This information further
 specified the [assignment](graduation-assignment.html). In summary, Twan would
 be responsible for search and related functionalities at VideofyMe. The goal of
@@ -82,7 +82,7 @@ the assignment would be to decrease the strain on the database and improve the
 quality of the search results.
 
 Patrick decided to use Elasticsearch for a distributed full-text search
-environment. This would remove the strain from the database and open up
+environment. This should remove the strain from the database and open up
 possibilities to improve the quality of the search results.
 
 <!-- This paragraph below is in wrong tense. It is also in the wrong place -->

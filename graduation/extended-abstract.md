@@ -266,8 +266,8 @@ exceed the reduction in memory when choosing HAProxy or Nginx.
 
 The newly written code for the internship assignment was unit-tested using
 [rspec] and [rr]. Database performance was determined by questioning the system
-administrator. Improvements in quality of the search results is determined by a
-questionnaire held among VideofyMe employees.  <!-- TODO: Link to test results. -->
+administrator. Improvements in quality of the search results were determined by a
+questionnaire held among VideofyMe employees.
 
 # Results
 This section elaborates on the results of my internship and the current status
@@ -278,7 +278,7 @@ The proposed infrastructure has been approved. While deploying the new
 infrastructure, Amazon Web Services (AWS) did not allow the creation of
 additional instances. This turned out not to be a deal breaker. The existing
 instance has been re-used to deploy on. This put the cluster in a mode of
-reduced redundancy but fully operational.
+reduced redundancy but remains fully operational.
 
 ## Database
 With the Elasticsearch cluster operational, it can take the strain off the
@@ -294,15 +294,26 @@ Load Average  | The number of processes (computations) ready to run, measured in
 Active Memory | The memory actively being (re-)used. Includes all memory other than data, executable memory and caches.
 
 The database instance has 2 VCPUs (virtual central processing units). A load
-average of above 2 is therefore concerning. The drop in resource utilization can
-be seen clearly at the 10 minute mark.
+average of above 2 is therefore **very concerning**. The drop in resource
+utilization can be seen clearly at the 10 minute mark. While this is still a
+heavy utilization, it does give some breathing room. This is extremely helpfull
+because it allows for secondary operations to be done with the database without
+crippling performance. An example of such a secondary operation is exporting a
+backup of the database.
 
 ## Quality of search results
-Quality of search results can not be measured in concrete values or units. The
-outcome of the questionaire will determine whether the new system improved the
-quality of search results. The questionnaire is distributed amongst Videofyme
-employees, as their extensive use of the service closely reflects that of the
-actual userbase.
+The quality of search results cannot be measured in concrete values or units.
+The outcome of the questionaire will determine whether the new system has
+improved on the quality of search results. The questionnaire is distributed
+amongst Videofyme employees, as their extensive use of the service closely
+reflects that of the actual userbase.
+
+![questionnaire](architecture/infrastructure/questionnaire.png "Improvement of the search system is unanimous.")
+
+Questions in the questionnaire are answered on a 3 point scale: equal, worse or
+better. The results give a clear confirmation that the new search system is an
+improvement.
+<!-- While quite short it packs a lot of opinion about the search system. -->
 
 # Other realizations
 + Serving videos requires a lot of tracking to make it profitable

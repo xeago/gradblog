@@ -26,7 +26,6 @@ Depending on the operational costs for having a no-data node at the application 
 
 # My musings about the [test results](test-results.html)
 Using [puppet](http://projects.puppetlabs.com/projects/puppet) to provision the servers was enormous fun to set up. Even though my tests were quite short, the error values derived from the results are low.
-Therefore the values cannot be seen as a result scientific benchmarking but they do give good insight in the various options. I didn't expect Elasticsearch as a load balancer to perform this well. However it is still the most costly option: memory is measured per node not per cluster, Elasticsearch has to run on at least half the client-nodes.
-Regardless of this, the benefits that Elasticsearch provide — most notably automatic cluster discovery, routing and ease of configuration — far exceed the reduction in memory when choosing HAProxy or Nginx.
+Therefore the values cannot be seen as a result scientific benchmarking but they do give good insight in the various options. I didn't expect Elasticsearch as a load balancer to perform this well. However, since Elasticsearch has to run on at least half the clients-nodes, it is still the most costly option: memory is measured per node and not per cluster. Regardless of this, the benefits that Elasticsearch provides — most notably automatic cluster discovery, routing and ease of configuration — far exceed the reduction in memory when choosing HAProxy or Nginx.
 
 I have to thank all the nice folks on irc for helping me set up the various services: #elasticsearch, #haproxy, #nginx on [irc.freenode.net](http://webchat.freenode.net).

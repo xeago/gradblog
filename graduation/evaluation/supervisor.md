@@ -7,7 +7,7 @@ title: Evaluation form - Supervisor
 
 |                             
 |:-----------------|:------------
-Name Student       | Twan Wolthof
+Name student       | Twan Wolthof
 School supervisor  | Rianne Verheijen
 Company supervisor | Patrick Lef
 Faculty            | ICT

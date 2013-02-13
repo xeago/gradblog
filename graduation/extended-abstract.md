@@ -7,7 +7,6 @@ title: Extended Abstract — Twan Wolthof
 Using http://blackboard.hszuyd.nl/bbcswebdav/courses/HIO-IT4-I4-I8-stage-afstuderen/Documenten/Docs_Afst_Stage/SE/ExtendedAbstractStageEnAfstuderen.pdf as a reference.
 -->
 
-<!-- Todo: insert people table -->
 
 # Introduction
 This extended abstract documents the internship period of Twan Wolthof at
@@ -17,22 +16,16 @@ of Twan's graduation.
 This document assumes *some* knowledge of programming, distributed systems,
 cloud services and system administration.
 
-## Twan Wolthof
-This document is part of the conclusion of the *Information Technology*
-education at [Zuyd Hogeschool]. Twan intends to finish his education at an
-accelerated pace, in 3.5 years — instead of the usual 4 years.
-
-## VideofyMe
-Videofyme is a technology startup company doing video hosting with custom
-developed, unique features.
-> VideofyMe was founded April 2009 by Robert Mellberg and Oskar Glauser with
-  the goal to build the smartest and easiest to use video service for blogs and
-  websites.
-> > From [videofy.me/about](http://videofy.me/about)
-
-Twan applied for the position as an intern after seeing their advertisement
-on [Github: Jobs](http://jobs.github.com).
-<!-- The advertisement has now expired. -->
+## Internship details
+|                             
+|:-----------------|:------------
+Name student       | Twan Wolthof
+Supervisor         | R. Verheijen from Zuyd University
+Supervisor         | P. Lef, CTO of VideofyMe
+University         | Zuyd University of Applied Sciences
+Faculty            | ICT
+Degree Programme   | Information Technology
+Period             | August 2012 through February 2013
 
 <!-- I repeatedly asked if this section was supposed to be included,
   it was not. However, due to the technical level of this document it might be
@@ -41,53 +34,22 @@ on [Github: Jobs](http://jobs.github.com).
 
 <!-- discuss people? -->
 
-## Work environment
-From August 2012 through February 2013 Twan has been operational in VideofyMe's
-offices; located at [Tullhus 3, Skeppsbron 111 30 Stockholm, Sweden](http://g.co/maps/2fvk8).
-
 <!-- ## Test Results: I think the location for this node is weird. -->
 <!-- Theoretic framework: I think the location for this node is weird.
                           It fits better in the next sections. -->
 
 # Internship assignment
 The internship assignment was not specific. Instead it was quite broad.
-It transformed over time based on new requirements and insight. Below is a copy
-of the initial document.
+It transformed over time based on new requirements and insight.
 
-> # VIDEOFY.ME
-  VideofyMe is a video service that connects publishers with followers and
-  advertisers. The publisher uploads a video through mobile apps or our
-  website and spreads it to their followers. Users then earn money on
-  advertisements which we book on their videos, if desired.
-  Today, VideofyMe has more than 200,000 publishers with more than
-  50 million video views per month. VideofyMe is a global service that has
-  paid more than 1,000,000 USD to its members.
-> # YOU
-  We are looking for talented developers who have worked with and built
-  social media tools. We want you to have a good understanding of how
-  users think and what they want to achieve. You should know what the
-  important triggers in social media are, and what it is which makes
-  people use them. You want to work with business logic and like to design
-  your own systems. You will be working with the business logic of our
-  platform and work closely with our mobile app developers. During your
-  internship you will expand our existing codebase with social media
-  features for a social video platform. You will work in a team of
-  10 people and are a core part of the business logic development within
-  the company.
-> > From [http://blog.xeago.nl/assets/internship/videofyme-internship.html](http://blog.xeago.nl/assets/internship/videofyme-internship.html)
+Users requested higher quality search results. Staff requested a non-critical
+database. Investigation showed that the search queries were crippling the
+database. With a growing userbase and inefficient search-queries the database
+suffered in performance. The goal of the assignment would be to decrease the
+strain on the database and improve the quality of the search results.
 
-Several weeks before the summer holidays Patrick communicated to Twan a common
-request. Users requested higher quality search results. Staff requested
-a non-critical database. Earlier investigation showed that the search queries
-were crippling the database. With a growing userbase and inefficient
-search-queries the database suffered in performance. This information further
-specified the [assignment](graduation-assignment.html). In summary, Twan would
-be responsible for search and related functionalities at VideofyMe. The goal of
-the assignment would be to decrease the strain on the database and improve the
-quality of the search results.
-
-Patrick decided to use Elasticsearch for a distributed full-text search
-environment. Using this system, the strain should be removed from the database
+VideofyMe decided to use Elasticsearch for a distributed full-text search
+environment. Using this system, the strain could be removed from the database
 and open up possibilities to improve the quality of the search results.
 
 <!-- This paragraph below is in wrong tense. It is also in the wrong place -->
@@ -104,7 +66,7 @@ the first component to be implemented that was not initially anticipated and
 would further specify the assignment.
 
 The complexities of this assignment are to be found in areas of textual analysis,
-of distributed systems, of unknown programming environment and frameworks, and
+of distributed systems, of unknown programming environments and frameworks, and
 cultural differences.
 
 # Method
@@ -112,17 +74,18 @@ VideofyMe works with development cycles of around 2 weeks. When work is
 considered done it gets deployed to production, unless there is a desire not to do
 so. At the start of each cycle the previous cycle is reviewed and new work is
 scheduled.  
-To fit in with their development cycle, Twan proposed a similar
-[development cycle]. The priority within each cycle was as follows: improve the
-codebase, design and architecture and secondly introduce new features or
-behavior.  
+To fit in with their development cycle, the choice was made to develop in a
+similar [development cycle]. The priority within each cycle was as follows:
+first improve the codebase, design and architecture and secondly introduce new
+features or behavior.  
 This flexibility and the nature of the assignment caused the assignment to evolve
-over time and be clearer.
+over time and become more clear.
 
-Initially, the architecture in use at VideofyMe will be discussed and new
-components will be introduced. Next, the changes to the infrastructure will be
-discussed and test results of the new infrastructure will be provided. Finally,
-the discussion will cover how the software is composed of extensible
+<!-- wrong order -->
+To start with, the architecture in use at VideofyMe will be discussed and the
+new components will be introduced. Next, the changes to the infrastructure will
+be discussed and test results of the new infrastructure will be provided.
+Finally, the discussion will cover how the software is composed of extensible
 components.
 
 <!-- Somehow have to incorporate these things:
@@ -132,37 +95,7 @@ components.
 + Working with distributed software
 -->
 
-## Infrastructure
-Below is a diagram of the infrastructure of VideofyMe. To keep the diagram from
-becoming to crowded, caching layers and other temporary storage systems have
-been omitted.
-
-![old infrastructure]
-
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Component   | Description
------------:|:-------
-Web         | Contains user facing systems.
-Frontend    | Webserver, uses the OpenAPI for data.
-OpenAPI     | Wrapper for API. Accessed by iframe-embeds, iPhone & Android applications.
-Redis       | Fast reliable distributed key-value store.
-Redis Slave | Local redis instance synchronized with master.
-Uploader    | Accepts video uploads from users and persists them to S3.
-S3 (topleft)| Video and thumbnail storage.
-API         | Contains business logic.
-SQL         | Relational data storage.
-Adserver    | Keeps track of views and decides when and which ads to serve. Persists logs to S3.
-S3 (right)  | Logfile storage.
-Mapreduce   | Parses the logfiles for views and updates payments and credits.
-
-The new infrastructure adds one new system and one new component. An
-Elasticsearch cluster and an Elasticsearch node on each API
-instance. Elasticsearch on the API instances provide caching and cluster
-discovery. The cluster contains the actual data and is queried by the API.
-
-![small infrastructure]
-[small infrastructure]: architecture/infrastructure/small.png "A highlight of the relevant components in the new infrastructure."
-[old infrastructure]: architecture/infrastructure/old.png "The old infrastructure in use at VideofyMe."
+<!-- Describe that the systems below have been studied to meet the complexity -->
 
 ## [Elasticsearch]
 Elasticsearch is a lot of things. It uses Lucene for full text search. It is
@@ -192,29 +125,22 @@ The number of shards is specified during index creation and then fixed. The
 number of replicas of each shard can be changed at will.  
 There is no optimal number of shards; it is dependent on the requirement of your
 data. A default of 5 shards works for most cases but probably won't give you
-the best results for your particular data.  
+the best results for your particular data. Having more *shards* enhances the
+_indexing_ performance and allows to _distribute_ a big index across machines.
+Having more *replicas* enhances the _search_ performance and improves the
+cluster _availability_.  
 When it has been determined that the defaults don't suit your needs, it is
 important to conduct a proper investigation into what those needs are and how
 they can be accomplished. One should be careful when deviating from these
 defaults.
 
-### Plaintext search
-<small>This section is anecdotal as it details my personal perceptions.</small>
-I initially thought I was only implementing an API and attaching that to 
-VideofyMe's code. Boy, was I wrong. I think I got this illusion from a
-Railscasts video using *Thinking Sphinx*, which has quite a limited set of
-features. I was completely blown away by the text analysis that Elasticsearch
-can do. Things like ICU, stemming and ngrams, I didn't even know such analysis
-existed. Previously, I implemented search with a fuzzy regular expression after
-splitting on several characters. No longer!
-
 #### Terms
 Designing good schemata to optimize your search results is completely different
-than designing them in other systems I have worked with. In SQL based stores you
-design a scheme based on relationships and data types. However, when optimizing
-for text search, you have to go one step further. Here the lowest denominator is
-a single `term`. All input gets reduced to terms, whether it is boolean,
-numeric, date related or just text. It doesn't matter.
+than designing them in other systems. In SQL based stores you design a scheme
+based on relationships and data types. However, when optimizing for text search,
+you have to go one step further. Here the lowest denominator is a single `term`.
+All input gets reduced to terms, whether it is boolean, numeric, date related or
+just text. It doesn't matter.
 
 Text is special because it means different things depending on its context.
 For example the format, language, spelling errors and more.
@@ -259,15 +185,7 @@ a wrapper, it does no input validations.
 ## Testing the system
 The infrastructure has been tested, details have been written down in the
 [test results]. As the old infrastructure itself has remained unchanged only the
-new components were tested. I have written down my [musings]. Below is a short
-quote: <!-- Should this be in the results section instead? -->
-> I didn't expect Elasticsearch as a load balancer to perform this well.
-However, since Elasticsearch has to run on at least half the clients-nodes, it
-is still the most costly option: memory is measured per node and not per
-cluster. Regardless of this, the benefits that Elasticsearch provides — most
-notably automatic cluster discovery, routing and ease of configuration — far
-exceed the reduction in memory when choosing HAProxy or Nginx.
-> > From [architecture/musings.md](architecture/musings.md) — Twan Wolthof
+new components were tested. I have written down my [musings].
 
 The newly written code for the internship assignment was unit-tested using
 [rspec] and [rr]. Database performance was determined by questioning the system
@@ -277,6 +195,45 @@ questionnaire held among VideofyMe employees.
 # Results
 This section elaborates on the results of my internship and the current status
 of my work at VideofyMe.
+
+## Infrastructure
+Below is a diagram of the infrastructure of VideofyMe. To keep the diagram from
+becoming crowded, caching layers and other temporary storage systems have
+been omitted.
+
+![old infrastructure]
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Component   | Description
+-----------:|:-------
+Web         | Contains user facing systems.
+Frontend    | Webserver, uses the OpenAPI for data.
+OpenAPI     | Wrapper for API. Accessed by iframe-embeds, iPhone & Android applications.
+Redis       | Fast reliable distributed key-value store.
+Redis Slave | Local redis instance synchronized with master.
+Uploader    | Accepts video uploads from users and persists them to S3.
+S3 (topleft)| Video and thumbnail storage.
+API         | Contains business logic.
+SQL         | Relational data storage.
+Adserver    | Keeps track of views and decides when and which ads to serve. Persists logs to S3.
+S3 (right)  | Logfile storage.
+Mapreduce   | Parses the logfiles for views and updates payments and credits.
+
+For the new infrastructure which would add at least an Elasticsearch cluster
+several options were available. They have been extensively tested, as documented
+in the [test results]. With knowledge of the information gathered in these test
+the choice has been made to use a setup with Elasticsearch nodes on each API
+instance to provide caching and cluster discovery.
+
+> ..Elasticsearch has to run on at least half the clients-nodes, it
+is still the most costly option: memory is measured per node and not per
+cluster. Regardless of this, the benefits that Elasticsearch provides — most
+notably automatic cluster discovery, routing and ease of configuration — far
+exceed the reduction in memory when choosing HAProxy or Nginx.
+> > From [architecture/musings.html](architecture/musings.html) — Twan Wolthof
+
+![small infrastructure]
+[small infrastructure]: architecture/infrastructure/small.png "A highlight of the relevant components in the new infrastructure."
+[old infrastructure]: architecture/infrastructure/old.png "The old infrastructure in use at VideofyMe."
 
 ## Current status
 The proposed infrastructure has been approved. While deploying the new
@@ -288,8 +245,12 @@ reduced redundancy but remains fully operational.
 ## Database
 With the Elasticsearch cluster operational, it can take the strain off the
 database. To achieve this, the VideofyMe API also received an update to take
-advantage of the Elasticsearch cluster. Below is a chart of the drop in system
-resources utilized, measured around the time of deployment.
+advantage of the Elasticsearch cluster. In essence the three most resource
+expensive queries have been offloaded to another system.  
+<!-- I have a chart of the resource consumption of these queries. I am not
+including that chart because it adds little to no extra value to this paragraph. -->
+Below is a chart of the drop in system resources utilized, measured around the
+time of deployment.
 
 ![databaseresources](architecture/infrastructure/databaseresources.png "Database resource utilization around the moment of deployment.")
 
@@ -313,12 +274,26 @@ improved on the quality of search results. The questionnaire is distributed
 amongst Videofyme employees, as their extensive use of the service closely
 reflects that of the actual userbase.
 
+<!-- is it necessary to include the chart here? -->
 ![questionnaire](architecture/infrastructure/questionnaire.png "Improvement of the search system is unanimous.")
 
 Questions in the questionnaire are answered on a 3 point scale: equal, worse or
 better. The results give a clear confirmation that the new search system is an
 improvement.
 <!-- While quite short it packs a lot of opinion about the search system. -->
+
+# Conclusion
+TODO: write conclusion.
+
+## Unfinished or incomplete work
++ **Tire**  
+  There were some thoughts about extending Tire to automatically discover the
+  cluster. This was determined to be very complex and would add a dependency
+  on a third party. It however appears to be a better long-term solution.
++ **Data redundancy**  
+  Besides the fact that all data is also stored in a SQL store, the data used
+  for searching is not redundantly available. This is because AWS did not
+  authorize the request for new instances to use for the Elasticsearch cluster.
 
 # Other realizations
 + Serving videos requires a lot of tracking to make it profitable

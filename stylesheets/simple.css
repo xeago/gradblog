@@ -67,6 +67,7 @@ section h4 + p {
     word-break:break-all;
     font-weight: normal;
     text-decoration: none;
+    font-size:8px;
   }
   
   body {

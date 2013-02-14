@@ -112,7 +112,6 @@ Elasticsearch uses Lucene for full text search.
 > > From [http://lucene.apache.org/core/](http://lucene.apache.org/core).
 
 <!-- Some terms are unclear in the below paragraph. -->
-<!-- Make them clear using a graphic! -->
 Elasticsearch shards documents based on a hash of a document's unique
 identifier. Each shard is a standalone Lucene-index. Multiple shards make up
 a search-index in elasticsearch. An index can have multiple types. One could
@@ -134,6 +133,9 @@ When it has been determined that the defaults don't suit your needs, it is
 important to conduct a proper investigation into what those needs are and how
 they can be accomplished. One should be careful when deviating from these
 defaults.
+
+![Elasticsearch]
+[Elasticsearch]: architecture/infrastructure/elasticsearch.png "Graphical layout of the structure of an Elasticsearch node in a cluster."
 
 #### Terms
 Designing good schemata to optimize your search results is completely different
@@ -321,10 +323,6 @@ TODO: Put all references here in non-markdown format.
   [Why does Quora use MySQL as the data store instead of NoSQLs such as Cassandra MongoDB or CouchDB]
   [friendfeed uses schemaless mysql]
 + [Managing large sharded topologies]
-
-
-
-
 
 [Elasticsearch]: http://elasticsearch.org
 [Elasticsearch.com]: http://elasticsearch.com

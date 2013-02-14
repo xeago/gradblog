@@ -42,9 +42,9 @@ Period             | August 2012 through February 2013
 The internship assignment was not specific. Instead it was quite broad.
 It transformed over time based on new requirements and insight.
 
-Users requested higher quality search results. Staff requested a non-critical
-database. Investigation showed that the search queries were crippling the
-database. With a growing userbase and inefficient search-queries the database
+Users of VideofyMe requested higher quality search results. Staff requested
+a non-critical database. Investigation showed that the search queries were
+crippling the database. With a growing userbase and inefficient search-queries the database
 suffered in performance. The goal of the assignment would be to decrease the
 strain on the database and improve the quality of the search results.
 
@@ -160,7 +160,7 @@ a multitude of useful information on a cluster, node, index or shard level.
 There are plugins that make this information available in web based GUIs.
 Examples of these APIs are [Head], [Bigdesk] and [Paramedic]. All of these were
 used for the internship assignment.  
-These proved especially helpful as a guide to create some scripts for the
+These proved especially helpful as a guide to create scripts for the
 [test results].
 
 #### [Query DSL]
@@ -200,8 +200,8 @@ This section elaborates on the results of my internship and the current status
 of my work at VideofyMe.
 
 ## Infrastructure
-Below is a diagram of the infrastructure of VideofyMe. To keep the diagram from
-becoming crowded, caching layers and other temporary storage systems have
+Below is a diagram of the old infrastructure of VideofyMe. To keep the diagram
+from becoming crowded, caching layers and other temporary storage systems have
 been omitted.
 
 ![old infrastructure]

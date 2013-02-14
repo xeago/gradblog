@@ -112,6 +112,7 @@ Elasticsearch uses Lucene for full text search.
 > > From [http://lucene.apache.org/core/](http://lucene.apache.org/core).
 
 <!-- Some terms are unclear in the below paragraph. -->
+<!-- Make them clear using a graphic! -->
 Elasticsearch shards documents based on a hash of a document's unique
 identifier. Each shard is a standalone Lucene-index. Multiple shards make up
 a search-index in elasticsearch. An index can have multiple types. One could
@@ -262,7 +263,7 @@ Active Memory | The memory actively being (re-)used. Includes all memory other t
 The database instance has 2 VCPUs (virtual central processing units). A load
 average of above 2 is therefore **very concerning**. The drop in resource
 utilization can be seen clearly at the 10 minute mark. While this is still a
-heavy utilization, it does give some breathing room. This is extremely helpfull
+heavy utilization, it does give some breathing room. This is extremely helpful
 because it allows for secondary operations to be done with the database without
 crippling performance. An example of such a secondary operation is exporting a
 backup of the database.
@@ -287,13 +288,24 @@ TODO: write conclusion.
 
 ## Unfinished or incomplete work
 + **Tire**  
-  There were some thoughts about extending Tire to automatically discover the
-  cluster. This was determined to be very complex and would add a dependency
-  on a third party. It however appears to be a better long-term solution.
+  There were some thoughts about extending Tire (client library for
+  Elasticsearch) to automatically discover the cluster. This was determined to
+  be very complex and would add a dependency on a third party. It however
+  appears to be a better long-term solution as it allows for a decrease in
+  resource utilization.
 + **Data redundancy**  
   Besides the fact that all data is also stored in a SQL store, the data used
   for searching is not redundantly available. This is because AWS did not
   authorize the request for new instances to use for the Elasticsearch cluster.
+
+## Recommendations
+It is definitely recommended to complete the deployment by adding atleast one
+additional Elasticsearch node on a seperate instance. This would greatly
+increase the availability and reliability of the search system.
+
+Depending on the performance results of the cluster on production it might be
+wise to increase the memory capacity of instances. This would also allow
+indexing additional data to improve search quality.
 
 # Other realizations
 + Serving videos requires a lot of tracking to make it profitable

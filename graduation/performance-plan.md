@@ -148,11 +148,6 @@ Description |           | While this internship will conclude with my graduation
 Relevance   | 5         | Learning, from any origin, is of utmost importance for any software engineer.
 Products    |           | Monthly memos.
 
-
-# Products
-+   [Memos]
-+   [status-reports]
-
 [memos]: memos.html
 [status-reports]: status-reports.html
 

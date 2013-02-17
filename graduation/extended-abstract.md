@@ -81,12 +81,9 @@ features or behavior.
 This flexibility and the nature of the assignment caused the assignment to evolve
 over time and become clearer.
 
-<!-- TODO: wrong order -->
-To start with, the architecture in use at VideofyMe will be discussed and the
-new components will be introduced. Next, the changes to the infrastructure will
-be discussed and test results of the new infrastructure will be provided.
-Finally, the discussion will cover how the software is composed of extensible
-components.
+To start with, the important systems and subjects will be discussed. Next, the
+manner in which these have been tested will be defined. And finally, the
+results will be presented.
 
 <!-- Somehow have to incorporate these things:
 # Work environment
@@ -121,11 +118,11 @@ lucene-indices and tables to types.
 The number of shards is specified during index creation and then fixed. The
 number of replicas of each shard can be changed at will.  
 There is no optimal number of shards: it is dependent on the requirement of your
-data. A default of 5 shards works for most cases but probably won't give you
-the best results for your particular data. Having more *shards* enhances the
-_indexing_ performance and allows to _distribute_ a big index across machines.
-Having more *replicas* enhances the _search_ performance and improves the
-cluster _availability_.  
+data. A default of 5 shards and 1 replica works for most cases but probably
+won't give you the best results for your particular data. Having more *shards*
+enhances the _indexing_ performance and allows to _distribute_ a big index
+across machines. Having more *replicas* enhances the _search_ performance and
+improves the cluster _availability_.  
 When it has been determined that the defaults don't suit your needs, it is
 important to conduct a proper investigation into what those needs are and how
 they can be accomplished. One should be careful when deviating from these
@@ -143,7 +140,7 @@ All input gets reduced to terms, whether it is boolean, numeric, date related or
 just text. It doesn't matter.
 
 Text is special because it means different things depending on its context.
-For example the format, language, spelling errors and more can all cause
+For example the format, the language, any spelling errors and more can all cause
 potentially unwanted differences.
 This requires careful consideration when designing a scheme. Elasticsearch helps
 you by automatically guessing a scheme based on first input, and migrates to
@@ -165,7 +162,7 @@ These proved especially helpful as a guide to create scripts for the
 Elasticsearch implements a really nice domain specific language (DSL) to query
 the index. The heading of this paragraph links to the official documentation.  
 Using simple to understand composites it is possible to create queries tailored
-for your data and usecases. The DSL has constructs like `bool`, `range`,
+for your data and usecases. The DSL has constructions like `bool`, `range`,
 `query-string` and more. During the internship I constructed several of these
 queries as well as built an abstraction for the common structure for queries.
 
@@ -228,7 +225,7 @@ instance to provide caching and cluster discovery.
 
 > …Elasticsearch has to run on at least half the client-nodes … it
 is still the most costly option: memory is measured per node and not per
-cluster. Regardless of this, the benefits that Elasticsearch provides — most
+cluster. Regardless of this, the benefits that this setup provides — most
 notably automatic cluster discovery, routing and ease of configuration — far
 exceed the reduction in memory when choosing HAProxy or Nginx.
 > > From [architecture/musings.html](architecture/musings.html) — Twan Wolthof
@@ -272,7 +269,7 @@ backup of the database.
 ## Quality of search results
 The quality of search results cannot be measured in concrete values or units.
 The outcome of the questionnaire will determine whether the new system has
-improved on the quality of search results. The questionnaire is distributed
+improved on the quality of search results. The questionnaire was distributed
 amongst Videofyme employees, as their extensive use of the service closely
 reflects that of the actual userbase.
 
@@ -287,10 +284,9 @@ indeed an improvement.
 # Conclusion
 VideofyMe was more than satisfied with the products delivered during my
 internship period. They decided to offer me employment on my return to Sweden.  
-With the system in production before my leave, I am pleased with the successful
-delivery of products during my internship. Because of this, the system is
-already deployed to production.
-
+With the successful delivery of products during my internship, the system has
+already been deployed to production. Because of this, I am pleased with my
+successful internship.
 
 ## Unfinished or incomplete work
 + **Tire**  

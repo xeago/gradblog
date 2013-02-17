@@ -5,6 +5,15 @@ title: Memos
 
 These memos contain short reflections about skills acquired or knowledge gained, according to my [performance plan](performance-plan.html#ref-PI05).
 
+# 2013-02-14
+I have also written a document with my [reflections] around the end of my internship.
+
+[reflections]: reflections.html
+
+# 2013-01-14
+Getting systems ready to deploy is a pain in the ass if it is a long running project. I recommend breaking big tasks up into smaller chunks than I did. While it did not cause any reasons for concern, it wasn't that fun having that much of pressure resting
+needlessly on ones shoulders.
+
 # 2012-11-26
 We all know that when one designs and creates a system with certain quality aspects, one has to put these to the test. In case of networking and automatic failovers I have never had the chance to fully implement and design such a system, let alone think of testing it.  
 Thankfully I get to test it here. Using [Webmock] and [Vcr] I can capture, replay and manipulate networking behaviour to simulate the desired scenarios. Before I usually resorted to 'pulling the plug' myself and seeing how the system behaves. Now I can accurately verify the behavior in a quick and concise manner.

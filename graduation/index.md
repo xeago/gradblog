@@ -16,3 +16,5 @@ title: Index of /graduation/
 +   [architecture/test results](architecture/test-results.html)
 +   [evaluation/student](evaluation/student.html)
 +   [evaluation/supervisor](evaluation/supervisor.html)
++   [reflections](reflections.html)
++   [extended abstract](extended-abstract.html)

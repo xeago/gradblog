@@ -5,6 +5,10 @@ title: Status reports
 
 These reports contain a fortnightly summary of the activities and their results, according to my [performance plan — PI05](performance-plan.html#ref-PI05).
 
+# 2013-02-14 — Final countdown!
+No full status reports will happen since the last status report. This because
+there has been plenty of contact via other means with my supervisors.
+
 # 2013-01-28 — Are we there yet?
 The past two weeks were intense. I tested everything a final time. I deployed to
 my own AWS account. Waiting for an `OK` from Patrick and Julia. The extended

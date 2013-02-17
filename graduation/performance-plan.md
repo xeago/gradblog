@@ -43,30 +43,35 @@ This listing is freely translated by the author. When in doubt or in event of co
 PI          | [1][PI01] | A student demonstrates in practice that the (SE) instruments (method / technique) have been effectively used.
 Description |           | Understanding and the ability to use suitable methods and techniques are key to a professional software engineer.
 Relevance   | 4         | 
-Instruments |           | Jekyll, tire & elasticsearch, capistrano, chef, ssh, git, MVC and more.
-Products    |           | (description of the) usage of relevant instruments.
+Instruments |           | Jekyll, tire & elasticsearch, capistrano, puppet, ssh, git, MVC and more.
+Reflection  | ++        | I had fun in my spare time looking at a lot of these tools. I chose to use Jekyll for maintaining my blog aswell as a document typesetting for all my graduation documentation. I learned how to use puppet by using it to bootstrap new installations of OS X for future laptops. Puppet works over ssh, which I was already familiar with (ssh allows you to remotely control another computer). I was then able to use this knowledge for use in bootstrapping virtual machines (on AWS) for my tests. I use git for source control because in my opinion it is the best that is available, VideofyMe uses it too. I put almost everything into source control! Several design patterns have been used appropriately in the codebase. This made it even easier to implement since part of the structure was already well known.
+Products    |           | (description of the) usage of relevant instruments (see above).
+
 
   |         |                                                                                       
 -:|:-------:|-----------|
 PI          | [2][PI02] | A student demonstrates in practice on the basis of valid arguments to have taken a grounded (design) decision.
 Description |           | Within the design of software, the system architecture and the system deployment process, decisions with their arguments will be documented.
-Relevance   | 3        | During my orientating internship I was criticized for hesitating to make decisions. I wish to improve on this aspect.
-Products    |           | Argumentation for decisions found within documentation for the design of the distributed search architecture (from advice/research documents) and the documentation for the design of search.
+Relevance   | 3         | During my orientating internship I was criticized for hesitating to make decisions. I wish to improve on this aspect.
+Reflection  | ++        | Based on gathered test results, I proposed a setup that was then also chosen by my supervisor after understanding my reasoning. While he finalized the decision (as he is in charge of keeping the system operational), it would have been my decision too.
+Products    |           | [Test results] accompanied by my [musings] about the subject.
 
   |         |                                                                                       
 -:|:-------:|-----------|
 PI          | [3][PI03] | A student delivers a product, result that meets the agreed requirements and quality.
 Description |           | An approved acceptance test will take place. Part(s) of this plan measures compliance with the agreed requirements and quality.
 Relevance   | 5         | I want to be evaluated on the result of my internship. Being able to deliver results is key to a professional software engineer.
-Products    |           | Acceptance test, documents that describe requirements and quality aspects.
-Note        |           | The specific documents will be (hyper-)linked here at a later stage of my internship.
+Reflection  | -         | I did not do this as formally as I wanted, but in my opinion the effect remains the same: assert the quality and acceptance of delivered products. I did this using a short questionnaire, also answered by my supervisor (for good measure: he answered positive on all questions).
+Products    |           | A [questionnaire] served as an acceptance test for the requirements described in my [graduation assignment] and [architectural requirements].
 
+[questionnaire]: architecture/infrastructure/questionnaire.png
 
   |         |                                                                                       
 -:|:-------:|-----------|
 PI          | [4][PI04] | A student demonstrates that a product has been adequately validated.
 Description |           | A result for the wrong problem is not the desired result, therefore an approved acceptance test will take place.
 Relevance   | 2         | I want to be evaluated on the result of my internship. Being able to deliver the desired result is key to a professional software engineer.
+Reflection  |  -        | The system works as requested, this has been asserted using the [questionnaire].
 Products    |           | System for searching videos and related documentation.
 
 <div id="ref-PI05" class="ref"></div>
@@ -76,34 +81,39 @@ Products    |           | System for searching videos and related documentation.
 PI          | [5][PI05] | A student reports formally and adequately of the result and the progress of work.
 Description |           | A fortnightly report on status will be broadcasted. These reports will contain information about my activities and their outcomes.
 Relevance   | 1         | Due to my internship being abroad keeping good contact is of high importance.
-Products    |           | Raw e-mail messages, [status-reports], [memos].
+Reflection  |   0       | I did my best to not forget to publish these reports on time, yet, sometimes this still slipped a bit. However, I haven't heard complaints about missing reports, I hope this did not get noticed and did/does not cause any issues.
+Products    |           | Raw e-mail messages (available on request), [status-reports], [memos].
 
   |         |                                                                                       
 -:|:-------:|-----------|
 PI          | [6][PI06] | A student gives a business grounded, robust advice.
 Description |           | Part of the end-result is the advice for the architecture for elasticsearch nodes. This advice will be backed by several documents providing additional information. The chief technology officer (CTO) of VideofyMe will review this advice and provide feedback which shall serve as verification.
 Relevance   | 3         | 
-Products    |           | An advice for the architecture for elasticsearch nodes, based on research. Review of CTO.
+Reflection  |   ++      | After discussing my [musings for the architecture] and the [test results] with my supervisor, he asked what I would do. This then became his decision too.
+Products    |           | An advice for the architecture for elasticsearch nodes, based on research. Review of CTO. Both of these were done in person at the office. The documents used during this discussion are linked to in the reflection.
 
   |         |                                                                                       
 -:|:-------:|-----------|
 PI          | [10][PI10]| A student shows in the SE field to be able of making an adequate analysis and model of a complex problem as assessed by stakeholders.
 Description |           | Part of the end-result is an architecture for elasticsearch nodes. These will be described, analyzed and tested.
 Relevance   | 3         | 
-Products    |           | Section(s) within advice and research documents.
+Reflection  |   ++      | Based on the requirements and the gathered knowledge about the systems used, an adequate analysis and model have been made. With the aid of this model the test results have been constructed.
+Products    |           | Section(s) within advice and research documents: [architecture requirements], [architecture design] and the [test results].
 
   |         |                                                                                       
 -:|:-------:|-----------|
 PI          | [11][PI11]| A student communicates in a pleasant and effective manner with each other and with stakeholders.
 Description |           | Communication is necessary to transfer findings to the target parties. Information contained will be clear and understandable.
 Relevance   | 4         | Due to my internship being abroad keeping good contact is of high importance.
-Products    |           | Archive of all textual-communication, reflection of stakeholders.
+Reflection  |  ++       | The communication with the supervisors were pleasant.
+Products    |           | Archive of all textual-communication (available on request), reflection of stakeholders (not yet received, the mid-term [evaluation] is available).
 
   |         |                                                                                       
 -:|:-------:|-----------|
 PI          | [14][PI14]| A student gives an adequate view of the progress and results of the work to create a bigger basis of understanding.
 Description |           | Supervisors obtain a basis of understanding by getting feedback early and often about the work performed and its results. This feedback contains concise, coherent information.
 Relevance   | 4         | 
+Reflection  |   0       | I have not received many feedback messages on my status reports or memos. However only a few remarks were made during the video conferences with my supervisor.
 Products    |           | Feedback messages, [status-reports], [memos], [portfolio](index.html).
 
   |         |                                                                                           
@@ -111,34 +121,39 @@ Products    |           | Feedback messages, [status-reports], [memos], [portfol
 PI          | [15][PI15]| A student demonstrates in practice to be able to make a conceptual integer design.
 Description |           | Implementing an integer design should not lead to questions about the design. Prove of this can be established on two ways: successful implementation of the design can be used as prove of a design being integer and a survey of colleagues — knowledgeable in the domain.
 Relevance   | 4         | 
-Products    |           | Documentation for the design of distributed search architecture (from advice/research documents) and the documentation for the design of search. Survey results.
+Reflection  |   ++      | The design has been implemented completely, it has even been extended without requiring structural change to the design.
+Products    |           | Documentation for the design of distributed search architecture (from advice/research documents) and the documentation for the design of search: see the [design] document. [Survey results][questionnaire].
 
   |         |                                                                                       
 -:|:-------:|-----------|
 PI          | [16][PI16]| A student demonstrates in practice to be able to realize an integer design.
 Description |           | Validated documentation with the implementation is part of the end-result. Backtracking the designs, and the decisions within them will serve as validation of the documentation.
 Relevance   | 4         | 
-Products    |           | Documentation for the design of distributed search architecture (from advice/research documents) and the documentation for the design of search.
+Reflection  |  ++       | No changes to the design were necessary for the implementation of additional components. This proves that the design was proper and properly realized.
+Products    |           | Documentation for the design of distributed search architecture (from advice/research documents) and the documentation for the design of search: see the [design] document.
 
   |         |                                                                                       
 -:|:-------:|-----------|
 PI          | [17][PI17]| A student demonstrates in practice his professional attitude (loyalty, honest, flexible, ..).
 Description |           | Soft skills are important in any project for a pleasant, successful execution. Examples of soft-skills are: cooperativeness, eagerness to learn, self criticism.
 Relevance   | 4         | 
-Products    |           | Reflection of supervisors and colleagues.
+Reflection  |  +        | VideofyMe (and employees) have expressed their gratitude to me. They would only do so if I was considered a good employee, thus having the necessary soft-skills.
+Products    |           | Reflection of supervisors and colleagues (not yet received, the mid-term [evaluation] is available).
 
   |         |                                                                                       
 -:|:-------:|-----------|
 PI          | [18][PI18]| A student demonstrates in practice to have used all available information sources effectively and efficiently for the stated objective.
 Description |           | Reliability and verifiability of information are important for the end-result. Information sources will be carefully considered and cited in a bibliography.
 Relevance   | 4         | 
-Products    |           | Bibliography
+Reflection  |    +      | I have contacted the authors in many cases for official documentation or further information regarding a specific topic. With that information I was able to verify other sources. I also received a preview of the official Elasticsearch book (but this is also because I was considered very helpful on IRC and was asked to proof read the book subsequently).
+Products    |           | Bibliography, mostly available in the extended abstract.
 
   |         |                                                                                       
 -:|:-------:|-----------|
 PI          | [19][PI19]| A student demonstrates in practice to be able to deliver effective documentation.
 Description |           | Documentation must serve a clear purpose without distractions and ambiguities.
 Relevance   | 4         | Maintaining, extending a distributed architecture is no easy job, it should not be made harder by omitting useful documentation.
+Reflection  |    +      | I have kept documents to their sole purpose. For example, I did not bloat documents with my personal opinion but I wrote these down in a seperate document containing only my personal opinion (and occasionally my opinion about someone else's opinion).
 Products    |           | Design documents.
 
   |         |                                                                                       
@@ -146,10 +161,19 @@ Products    |           | Design documents.
 PI          | [22][PI22]| A student demonstrates in practice to have learned of work, mistakes.
 Description |           | While this internship will conclude with my graduation, learning is a process that never completes. Unfortunately, it is not feasible to log every skill or knowledge that is acquired. To compensate for this, a short reflection-memo will be broadcasted monthly.
 Relevance   | 5         | Learning, from any origin, is of utmost importance for any software engineer.
-Products    |           | Monthly memos.
+Reflection  |   0       | I learned a lot, from development to system administration to devops; I consider all these extremely valuable. I have documented monthly in my memos and also in my [reflection].
+Products    |           | Monthly [memos].
 
 [memos]: memos.html
+[test results]: architecture/test-results.html
+[musings]: architecture/musings.html
 [status-reports]: status-reports.html
+[graduation assignment]: graduation-assignment.html
+[musings for the architecture]: architecture/musings.html
+[architecture requirements]: architecture/requirements.html
+[architecture design]: architecture/design.html
+[evaluation]: evaluation/supervisor.html
+[design]: architecture/design.html
 
 #### References
 + [Dutch performance indicators][DutchPI], page 6: "Algemene Prestatie-indicatoren"

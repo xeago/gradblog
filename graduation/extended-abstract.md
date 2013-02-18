@@ -128,8 +128,7 @@ important to conduct a proper investigation into what those needs are and how
 they can be accomplished. One should be careful when deviating from these
 defaults.
 
-![Elasticsearch]
-[Elasticsearch]: architecture/infrastructure/elasticsearch.png "Graphical layout of the structure of an Elasticsearch node in a cluster."
+![structure](architecture/infrastructure/elasticsearch.png "Graphical layout of the structure of an Elasticsearch node in a cluster.")
 
 #### Terms
 Designing good schemata to optimize your search results is completely different
@@ -335,19 +334,52 @@ support and encouragement. I was continually amazed by her willingness to
 proofread my documents while also experiencing all the ups and downs during my
 internship period.  
 
-# Summary of hyperlinks
-TODO: Put all references here in non-markdown format.
+## References
++   [development process]
++   [graduation assignment]
++   [memos]
++   [performance plan]
++   [status reports]
++   [time management]
++   [architecture/design]
++   [architecture/requirements]
++   [architecture/musings]
++   [architecture/test results]
++   [reflections]
 
-# Other used materials
-+ TODO: Incomplete
+[test results]: architecture/test-results.html
+[status reports]: status-reports.html
+[memos]: memos.html
+[graduation assignment]: graduation-assignment.html
+[development process]: development-process.html
+[development cycle]: development-process.html
+[musings]: musings.html
+[performance plan]: performance-plan.html
+[status reports]: status-reports.html
+[time management]: time-management.html
+[architecture/design]: architecture/design.html
+[architecture/requirements]: architecture/requirements.html
+[architecture/musings]: architecture/musings.html
+[architecture/test results]: architecture/test-results.html
+[reflections]: reflections.html
+
+
+
+## Other used materials
 + **The Elasticsearch book**; the official book; as yet unpublished material from [Elasticsearch.com]
-+ SQL turns NoSQL large scale
-  [mysql is facebook scale so-why use nosql — Pandawhale]
-  [Why does Quora use MySQL as the data store instead of NoSQLs such as Cassandra MongoDB or CouchDB]
-  [friendfeed uses schemaless mysql]
++ SQL turns NoSQL at large scale
+  - [mysql is facebook scale so-why use nosql — Pandawhale]
+  - [Why does Quora use MySQL as the data store instead of NoSQLs such as Cassandra MongoDB or CouchDB — Quora]
+  - [friendfeed uses schemaless mysql — backchannel]
 + [Managing large sharded topologies]
-+ Scheme vs Schema
-+ Additional vs Supplementary
++ [Scheme vs Schema](http://lmddgtfy.net/?q=Scheme%20vs%20Schema)
++ [Additional vs Supplementary](http://lmddgtfy.net/?q=Additional%20vs%20Supplementary)
++ [Introduction to distributed systems]
++ [Webuild — blog post about elasticsearch]
++ [Elasticsearch pre-flight checklist]
++ [Sharding is hard]
++ [Introductory video about elasticsearch]
++ [Introduction to architecting systems for scale]
 
 [Elasticsearch]: http://elasticsearch.org
 [Elasticsearch.com]: http://elasticsearch.com
@@ -356,13 +388,19 @@ TODO: Put all references here in non-markdown format.
 [Other API components]: http://www.elasticsearch.org/guide/reference/api/
 [Lucene]: http://lucene.apache.org/core/
 [Tire]: http://karmi.github.com/tire/
+[Head]: http://mobz.github.com/elasticsearch-head/
+[Bigdesk]: http://bigdesk.org
+[Paramedic]: https://github.com/karmi/elasticsearch-paramedic
+[rspec]: http://rspec.info
+[rr]: https://github.com/btakita/rr
 
-
-[test results]: architecture/test-results.html
-[status reports]: status-reports.html
-[memos]: memos.html
-
+[Introduction to architecting systems for scale]: http://lethain.com/introduction-to-architecting-systems-for-scale/
+[Introductory video about elasticsearch]: http://www.elasticsearch.org/videos/2012/06/05/three-nodes-and-one-cluster.html
 [mysql is facebook scale so-why use nosql — Pandawhale]: http://pandawhale.com/convo/383/mysql-is-facebook-scale-so-why-use-nosql
 [Why does Quora use MySQL as the data store instead of NoSQLs such as Cassandra MongoDB or CouchDB — Quora]: http://www.quora.com/Quora-Infrastructure/Why-does-Quora-use-MySQL-as-the-data-store-instead-of-NoSQLs-such-as-Cassandra-MongoDB-or-CouchDB/answers/39928
 [friendfeed uses schemaless mysql — backchannel]: http://backchannel.org/blog/friendfeed-schemaless-mysql
 [Managing large sharded topologies]: http://www.percona.com/files/presentations/percona-live/nyc-2012/PLNY12-managing-large-sharded-topologies-jetpants.pdf
+[Elasticsearch pre-flight checklist]: http://asquera.de/opensource/2012/11/25/elasticsearch-pre-flight-checklist/
+[Introduction to distributed systems]: http://www.somethingsimilar.com/2013/01/14/notes-on-distributed-systems-for-young-bloods/
+[Webuild — blog post about elasticsearch]: http://webuild.envato.com/blog/moving-the-marketplaces-to-elasticsearch/
+[Sharding is hard]: http://highscalability.com/blog/2010/10/15/troubles-with-sharding-what-can-we-learn-from-the-foursquare.html
